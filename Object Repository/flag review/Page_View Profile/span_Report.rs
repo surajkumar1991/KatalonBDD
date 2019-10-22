@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Suraj')])[2]</value>
+         <value>(//a[contains(text(),'Suraj')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;partialUserList&quot;]/div[1]/div[3]/div[1]/a/div[2]/div[2]</value>
+         <value>//div[contains(text(),'Suraj1')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

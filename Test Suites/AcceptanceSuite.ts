@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SanitySuite</name>
+   <name>AcceptanceSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6fd45427-e0af-43e5-8269-05bfb06a0ada</testSuiteGuid>
+   <testSuiteGuid>9d8a44e2-de09-443f-ab5e-26d6a1d35260</testSuiteGuid>
    <testCaseLink>
       <guid>106ce83d-a1c5-4f47-a8de-9eab0b32f7f3</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -65,10 +65,10 @@
       <testCaseId>Test Cases/Connect with users</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2acdd6b-e485-4174-8b3e-b37ce553e138</guid>
+      <guid>d0496737-af24-482e-8327-5144b6883030</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Endorse skills</testCaseId>
+      <testCaseId>Test Cases/Accept connection request</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb48866d-2bc9-4f7b-8652-69db4a3fb3f5</guid>
@@ -83,10 +83,10 @@
       <testCaseId>Test Cases/Search users</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>26e2a1a7-090c-4e0e-b0a0-d21051e86be3</guid>
+      <guid>d2acdd6b-e485-4174-8b3e-b37ce553e138</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Thumbing - Upvote and downvote</testCaseId>
+      <testCaseId>Test Cases/Endorse skills</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3400b6d9-1bfa-4dec-89df-e4b948b949e4</guid>
@@ -119,9 +119,45 @@
       <testCaseId>Test Cases/workLifeTest/ProfileDeletionLinkedInUser</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>26e2a1a7-090c-4e0e-b0a0-d21051e86be3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Thumbing - Upvote and downvote</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9e535874-7851-42c6-a4fd-dbd872e6d6c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Third party profile</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23401199-1d97-426c-b455-46f50d1735f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Follow users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2ccfccf-c204-41f3-8716-20df69a0f9ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Verify connection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9650a499-94ea-47e3-9361-2799c0e1fbe8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/verify pending connctions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>370e3a0e-2dd5-4b3f-8bb3-8425f7e1bc0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/workLifeTest/FollowerVerification-</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb7a402f-0e11-4b2e-bee0-180320bfa666</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/workLifeTest/FollowingVerification</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

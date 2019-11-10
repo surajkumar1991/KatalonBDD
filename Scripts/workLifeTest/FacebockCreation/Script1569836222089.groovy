@@ -37,11 +37,11 @@ WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Passwor
 
 WebUI.click(findTestObject('FacebookLogin/Page_Facebook/input_Password_login'))
 
-WebUI.delay(5)
+WebUI.delay(12)
 
 WebUI.switchToWindowTitle('Sign Up')
 
-WebUI.delay(5)
+WebUI.delay(12)
 
 WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Sign Up/input_Username_username'), 5)
 
@@ -64,6 +64,8 @@ WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Userna
 WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Facebook Username/u_Click here_1'), 5)
 
 WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 5)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Username/u_Click here_1'))
 

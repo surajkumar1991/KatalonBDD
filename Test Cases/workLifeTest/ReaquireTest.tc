@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Accept connection request</name>
+   <name>ReaquireTest</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c9d42496-79f5-49bd-9fe8-d31e0878df1b</testCaseGuid>
+   <testCaseGuid>51b63df5-d3b5-4b28-b89c-1aad087b412b</testCaseGuid>
 </TestCaseEntity>

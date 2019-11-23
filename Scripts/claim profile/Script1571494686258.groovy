@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
@@ -59,9 +59,9 @@ WebUI.click(findTestObject('Third party/Page_Search/a_OK'))
 
 WebUI.closeBrowser()
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.click(findTestObject('Object Repository/Page_theworklife - Find Great People To Work With/a_Join Now'))
 
@@ -133,9 +133,9 @@ code = WebUI.getText(findTestObject('Object Repository/claim/Page_Edit Profile/b
 
 WebUI.closeBrowser()
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Object Repository/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'testverification1@thework.life')
@@ -156,9 +156,9 @@ WebUI.click(findTestObject('Object Repository/claim/Page_Verify Facebook User/bu
 
 WebUI.closeBrowser()
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Object Repository/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'testing@appliedaiconsulting.com')

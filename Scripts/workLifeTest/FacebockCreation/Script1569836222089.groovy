@@ -65,6 +65,8 @@ WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Facebook Userna
 
 WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/loader'), 5)
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Username/u_Click here_1'))
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_Facebook Username/a_Finish'))

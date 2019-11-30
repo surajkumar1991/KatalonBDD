@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Email already exists -signup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e07c48fd-67af-44d7-979d-d3fab882858d</testCaseGuid>
+</TestCaseEntity>

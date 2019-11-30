@@ -1,0 +1,96 @@
+1
+00:00:00,388 --> 00:00:00,389
+1. openBrowser("")
+
+2
+00:00:04,905 --> 00:00:04,906
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:10,351 --> 00:00:10,351
+9. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:10,769 --> 00:00:10,769
+13. waitForElementPresent(findTestObject("Page_theworklife - Find Great People To Work With/button_LinkedIn"), 5)
+
+5
+00:00:10,919 --> 00:00:10,920
+17. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/button_LinkedIn"))
+
+6
+00:00:13,781 --> 00:00:13,781
+21. setText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key"), "testing@appliedaiconsulting.com")
+
+7
+00:00:14,533 --> 00:00:14,534
+25. setEncryptedText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+8
+00:00:15,032 --> 00:00:15,033
+29. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/span_Show"))
+
+9
+00:00:15,499 --> 00:00:15,501
+33. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in"))
+
+10
+00:00:23,973 --> 00:00:23,974
+37. delay(5)
+
+11
+00:00:28,985 --> 00:00:28,985
+41. setText(findTestObject("Object Repository/Page_Sign Up/input_Username_username"), "testingLink" + System.currentTimeMillis())
+
+12
+00:00:29,361 --> 00:00:29,362
+45. setEncryptedText(findTestObject("Object Repository/Page_Sign Up/input_Password_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+13
+00:00:29,621 --> 00:00:29,622
+49. click(findTestObject("Object Repository/Page_Sign Up/i_Strong_cr-icon fa fa-check"))
+
+14
+00:00:30,020 --> 00:00:30,022
+53. click(findTestObject("Object Repository/Page_Sign Up/button_Continue"))
+
+15
+00:00:30,444 --> 00:00:30,445
+57. click(findTestObject("Object Repository/Page_LinkedIn Username/u_Click here"))
+
+16
+00:00:35,059 --> 00:00:35,061
+61. setText(findTestObject("Object Repository/Page_LinkedIn Username/input_Click here_li_user_link"), "https://www.linkedin.com/in/applied-ai-ab4367194/")
+
+17
+00:00:35,505 --> 00:00:35,506
+65. delay(3)
+
+18
+00:00:38,512 --> 00:00:38,515
+69. click(findTestObject("Object Repository/Page_LinkedIn Username/button_Submit"))
+
+19
+00:00:39,733 --> 00:00:39,734
+73. waitForElementPresent(findTestObject("Page_LinkedIn Username/u_Click here_1"), 2)
+
+20
+00:00:40,189 --> 00:00:40,190
+77. scrollToElement(findTestObject("Page_LinkedIn Username/u_Click here_1"), 2)
+
+21
+00:00:40,918 --> 00:00:40,918
+81. sleep(7000)
+
+22
+00:00:47,920 --> 00:00:47,921
+85. waitForElementNotPresent(findTestObject("Experience/Page_Edit Profile/loader"), 5)
+
+23
+00:00:53,212 --> 00:00:53,212
+89. click(findTestObject("Object Repository/Page_LinkedIn Username/u_Click here_1"))
+
+24
+00:00:53,467 --> 00:00:53,467
+1. closeBrowser()
+

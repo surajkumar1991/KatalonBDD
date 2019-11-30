@@ -1,0 +1,48 @@
+1
+00:00:00,396 --> 00:00:00,397
+1. openBrowser("")
+
+2
+00:00:04,923 --> 00:00:04,923
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:12,735 --> 00:00:12,736
+9. setText(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "twl.moderator2@thework.life")
+
+4
+00:00:13,090 --> 00:00:13,092
+13. setEncryptedText(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "8PaKxJY1Q9KyHtQHchZ+/brhRmpikEMj")
+
+5
+00:00:13,340 --> 00:00:13,341
+17. click(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:20,568 --> 00:00:20,569
+21. click(findTestObject("Object Repository/moderate1/Page_Home/a_pending actions"))
+
+7
+00:00:24,013 --> 00:00:24,013
+25. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Moderate"))
+
+8
+00:00:24,439 --> 00:00:24,440
+29. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Keep It"))
+
+9
+00:00:24,879 --> 00:00:24,880
+33. setText(findTestObject("Object Repository/moderate1/Page_Pending Actions/textarea_i donr fblkfllskhgkhsgkhgksg_txtRemark"), "kgfjajkfsgjkflcbjksgfjsbvklbsjgjsbjbsjkgbvsjkbvjksbvjkbkjbvjksbvjkbsjkbvjskbvksbvksbvkbj")
+
+10
+00:00:25,246 --> 00:00:25,247
+37. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Keep It"))
+
+11
+00:00:25,689 --> 00:00:25,690
+41. closeBrowser()
+
+12
+00:00:27,374 --> 00:00:27,374
+1. closeBrowser()
+

@@ -1,0 +1,72 @@
+1
+00:00:00,417 --> 00:00:00,418
+1. openBrowser(AppUrl)
+
+2
+00:00:10,628 --> 00:00:10,629
+5. navigateToUrl(AppUrl)
+
+3
+00:00:12,495 --> 00:00:12,495
+9. setText(findTestObject("Page_theworklife/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:12,726 --> 00:00:12,727
+13. setEncryptedText(findTestObject("Page_theworklife/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:12,933 --> 00:00:12,934
+17. click(findTestObject("Page_theworklife/button_Sign in"))
+
+6
+00:00:18,798 --> 00:00:18,799
+21. click(findTestObject("Page_Edit Profile/a_profile"))
+
+7
+00:00:19,181 --> 00:00:19,182
+25. click(findTestObject("Page_Home/a_Edit Profile"))
+
+8
+00:00:24,123 --> 00:00:24,124
+29. setText(findTestObject("Page_Edit Profile/input_Name_name"), "Suraj" + System.currentTimeMillis() + "makhija")
+
+9
+00:00:24,532 --> 00:00:24,533
+33. click(findTestObject("profileObject/Page_Edit Profile/button_Save"))
+
+10
+00:00:25,010 --> 00:00:25,011
+37. delay(5)
+
+11
+00:00:30,016 --> 00:00:30,017
+41. waitForElementVisible(findTestObject("profileObject/Page_Edit Profile/a_OK"), 5)
+
+12
+00:00:30,215 --> 00:00:30,216
+45. click(findTestObject("Object Repository/Page_Edit Profile/a_OK"))
+
+13
+00:00:30,565 --> 00:00:30,567
+49. waitForElementVisible(findTestObject("Page_Home/a_profile"), 5)
+
+14
+00:00:36,159 --> 00:00:36,160
+53. click(findTestObject("Object Repository/Page_Edit Profile/a_profile"))
+
+15
+00:00:36,545 --> 00:00:36,546
+57. click(findTestObject("Object Repository/Page_Edit Profile/a_My Profile"))
+
+16
+00:00:41,909 --> 00:00:41,910
+61. verifyElementPresent(findTestObject("Page_My Profile/h1_Suraj1569757068652makhija"), 0)
+
+17
+00:00:47,211 --> 00:00:47,212
+65. closeBrowser()
+
+18
+00:00:49,095 --> 00:00:49,095
+1. closeBrowser()
+

@@ -26,40 +26,49 @@ WebUI.setEncryptedText(findTestObject('Experience/Page_theworklife - Find Great 
 
 WebUI.click(findTestObject('Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.setText(findTestObject('Rate/Page_Home/input_View all_searchText'), 'vijay')
+WebUI.setText(findTestObject('Rate/Page_Home/input_View all_searchText'), 'Vijay Test')
 
 WebUI.click(findTestObject('Rate/Page_Home/Search user button'))
 
 WebUI.click(findTestObject('connect with user/Page_Search/button_Connect'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
+WebUI.delay(5)
+
 WebUI.navigateToUrl('https://qa.thework.life/')
 
-WebUI.setText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+WebUI.setEncryptedText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
 
-WebUI.click(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/pending connections/Page_Home/a_connections'))
+WebUI.waitForElementPresent(findTestObject('connect with user/Page_Home/a_connections'), 3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/pending connections/Page_Connections/div_Yamanappa Ogennavar                                                                            Accept            Ignore'), 
-    3)
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/button_Accept'))
+WebUI.click(findTestObject('acceptconnection/Page_Connections/a_connections'))
 
-WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/a_home'))
+WebUI.click(findTestObject('acceptconnection/Page_Connections/button_Accept'))
 
-WebUI.click(findTestObject('Object Repository/accept connection/Page_Home/a_connections'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/img'))
+WebUI.click(findTestObject('acceptconnection/Page_Connections/a_connections'))
 
-WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/button_Disconnect'))
+WebUI.delay(5)
+
+not_run: WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/img'))
+
+not_run: WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/button_Disconnect'))
+
+WebUI.verifyTextPresent('No Connections available', true)
 
 WebUI.closeBrowser()
 

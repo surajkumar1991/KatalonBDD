@@ -1,0 +1,36 @@
+1
+00:00:00,405 --> 00:00:00,407
+1. DesignationName = "abcd" + System.currentTimeMillis()
+
+2
+00:00:00,409 --> 00:00:00,411
+5. openBrowser(AppUrl)
+
+3
+00:00:10,943 --> 00:00:10,943
+9. navigateToUrl(AppUrl)
+
+4
+00:00:12,841 --> 00:00:12,842
+13. setText(findTestObject("Page_theworklife/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+5
+00:00:13,127 --> 00:00:13,128
+17. setEncryptedText(findTestObject("Page_theworklife/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+6
+00:00:13,408 --> 00:00:13,409
+21. click(findTestObject("Page_theworklife/button_Sign in"))
+
+7
+00:00:18,845 --> 00:00:18,846
+25. navigateToUrl("https://qa.thework.life/Profile/EditProfile")
+
+8
+00:00:21,180 --> 00:00:21,181
+29. click(findTestObject("Page_Edit Profile/a_Experience"))
+
+9
+00:00:52,370 --> 00:00:52,370
+1. closeBrowser()
+

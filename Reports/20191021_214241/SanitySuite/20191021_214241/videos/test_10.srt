@@ -1,0 +1,56 @@
+1
+00:00:00,513 --> 00:00:00,513
+1. openBrowser("")
+
+2
+00:00:05,123 --> 00:00:05,123
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:13,982 --> 00:00:13,982
+9. setText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:14,347 --> 00:00:14,349
+13. setEncryptedText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:14,689 --> 00:00:14,690
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:27,132 --> 00:00:27,133
+21. setText(findTestObject("Object Repository/Endorse skills/Page_Home/input_View all_searchText"), "vijay")
+
+7
+00:00:27,461 --> 00:00:27,461
+25. delay(3)
+
+8
+00:00:30,464 --> 00:00:30,465
+29. click(findTestObject("Object Repository/Endorse skills/Page_Search/div_Vijay Test"))
+
+9
+00:00:38,039 --> 00:00:38,040
+33. click(findTestObject("Endorse skills/Page_Search/search vijay test"))
+
+10
+00:00:38,507 --> 00:00:38,508
+37. click(findTestObject("Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills"))
+
+11
+00:00:43,305 --> 00:00:43,307
+41. delay(5)
+
+12
+00:00:48,314 --> 00:00:48,316
+45. waitForElementClickable(findTestObject("Endorse skills/click on endorse skill"), 5)
+
+13
+00:00:53,690 --> 00:00:53,691
+49. click(findTestObject("Endorse skills/click on endorse skill"))
+
+14
+00:01:24,816 --> 00:01:24,816
+1. closeBrowser()
+

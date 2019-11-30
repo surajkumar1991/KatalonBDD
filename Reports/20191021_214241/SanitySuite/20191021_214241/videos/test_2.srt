@@ -1,0 +1,60 @@
+1
+00:00:00,590 --> 00:00:00,594
+1. openBrowser(AppUrl)
+
+2
+00:00:15,756 --> 00:00:15,759
+5. navigateToUrl(AppUrl)
+
+3
+00:00:18,722 --> 00:00:18,725
+9. setText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10002@gmail.com")
+
+4
+00:00:19,140 --> 00:00:19,141
+13. setEncryptedText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:19,463 --> 00:00:19,464
+17. click(findTestObject("Experience/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:24,685 --> 00:00:24,686
+21. click(findTestObject("Object Repository/DeletionObject/Page_Home/i_Settings_fa fa-gear"))
+
+7
+00:00:30,433 --> 00:00:30,434
+25. click(findTestObject("Object Repository/DeletionObject/Page_Home/a_Settings"))
+
+8
+00:00:42,446 --> 00:00:42,447
+29. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Account Basics"))
+
+9
+00:00:42,977 --> 00:00:42,980
+33. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Delete Account"))
+
+10
+00:00:43,467 --> 00:00:43,470
+37. setEncryptedText(findTestObject("Object Repository/DeletionObject/Page_Settings/input_Enter your password to confirm_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+11
+00:00:43,907 --> 00:00:43,908
+41. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Delete"))
+
+12
+00:00:44,410 --> 00:00:44,411
+45. waitForElementClickable(findTestObject("DeletionObject/Page_Settings/a_OK"), 0)
+
+13
+00:00:44,725 --> 00:00:44,726
+49. waitForElementVisible(findTestObject("DeletionObject/Page_Settings/a_OK"), 0)
+
+14
+00:00:45,185 --> 00:00:45,187
+53. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_OK"))
+
+15
+00:00:45,640 --> 00:00:45,641
+1. closeBrowser()
+

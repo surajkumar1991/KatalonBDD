@@ -41,7 +41,9 @@ WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/button_Rate
 
 WebUI.waitForElementClickable(findTestObject('Rate/Page_View Profile/span_Desire to work with again_star3'), 3)
 
-sleep(5000)
+not_run: sleep(10000)
+
+WebUI.delay(5)
 
 //((JavascriptExecutor)ChromeDriver()).executeScript(“document.getElementById(‘star3’).click())
 WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/span_Desire to work with again_star3'))
@@ -72,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/button_Subm
 
 WebUI.waitForElementClickable(findTestObject('Rate/Page_View Profile/a_OK'), 3)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Rate/Page_View Profile/a_OK'))
 

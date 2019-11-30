@@ -1,0 +1,60 @@
+1
+00:00:00,469 --> 00:00:00,471
+1. openBrowser("")
+
+2
+00:00:05,087 --> 00:00:05,088
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:14,004 --> 00:00:14,006
+9. setText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:14,334 --> 00:00:14,335
+13. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "x8UobeF0bbxd7GrPsdhkIlsTrhBxwBw1")
+
+5
+00:00:14,682 --> 00:00:14,683
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:20,268 --> 00:00:20,270
+21. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Password does not match_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+7
+00:00:20,606 --> 00:00:20,607
+25. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+8
+00:00:29,308 --> 00:00:29,310
+29. setText(findTestObject("Object Repository/Rate/Page_Home/input_View all_searchText"), "user1570385143181")
+
+9
+00:00:29,697 --> 00:00:29,699
+33. click(findTestObject("Rate/Page_Home/Search user button"))
+
+10
+00:00:40,613 --> 00:00:40,614
+37. click(findTestObject("Rate/Page_Home/click on user to rate"))
+
+11
+00:00:41,142 --> 00:00:41,143
+41. click(findTestObject("Rate/Page_Home/Click rate now"))
+
+12
+00:00:44,867 --> 00:00:44,870
+45. waitForElementClickable(findTestObject("Rate/Page_View Profile/span_Desire to work with again_star3"), 3)
+
+13
+00:00:45,277 --> 00:00:45,279
+49. sleep(5000)
+
+14
+00:00:50,284 --> 00:00:50,285
+53. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Desire to work with again_star3"))
+
+15
+00:00:50,807 --> 00:00:50,807
+1. closeBrowser()
+

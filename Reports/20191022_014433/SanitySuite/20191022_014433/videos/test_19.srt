@@ -1,0 +1,88 @@
+1
+00:00:00,391 --> 00:00:00,392
+1. openBrowser("")
+
+2
+00:00:04,947 --> 00:00:04,947
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:10,434 --> 00:00:10,435
+9. setText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:10,814 --> 00:00:10,815
+13. setEncryptedText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:11,076 --> 00:00:11,077
+17. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:17,227 --> 00:00:17,228
+21. setText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText"), "suraj")
+
+7
+00:00:17,461 --> 00:00:17,462
+25. click(findTestObject("Search user/Search user button"))
+
+8
+00:00:23,003 --> 00:00:23,004
+29. waitForElementClickable(findTestObject("Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija"), 3)
+
+9
+00:00:23,222 --> 00:00:23,222
+33. delay(10)
+
+10
+00:00:33,227 --> 00:00:33,228
+37. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija"))
+
+11
+00:00:33,605 --> 00:00:33,606
+41. waitForElementClickable(findTestObject("Thumbing-Upvote and Downvote/Page_View Profile/span_Agree"), 5)
+
+12
+00:00:36,436 --> 00:00:36,437
+45. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree"))
+
+13
+00:00:36,924 --> 00:00:36,925
+49. waitForElementNotPresent(findTestObject("Experience/Page_Edit Profile/loader"), 2)
+
+14
+00:00:39,181 --> 00:00:39,181
+53. delay(3)
+
+15
+00:00:42,185 --> 00:00:42,186
+57. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree"))
+
+16
+00:00:42,567 --> 00:00:42,568
+61. waitForElementClickable(findTestObject("Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree"), 3)
+
+17
+00:00:42,781 --> 00:00:42,782
+65. delay(3)
+
+18
+00:00:45,784 --> 00:00:45,785
+69. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree"))
+
+19
+00:00:46,156 --> 00:00:46,158
+73. delay(3)
+
+20
+00:00:49,168 --> 00:00:49,169
+77. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Disagree"))
+
+21
+00:00:49,616 --> 00:00:49,616
+81. closeBrowser()
+
+22
+00:00:51,443 --> 00:00:51,443
+1. closeBrowser()
+

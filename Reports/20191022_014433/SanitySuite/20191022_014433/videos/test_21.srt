@@ -1,0 +1,52 @@
+1
+00:00:00,468 --> 00:00:00,468
+1. openBrowser("")
+
+2
+00:00:04,967 --> 00:00:04,969
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:10,874 --> 00:00:10,874
+9. setText(findTestObject("Object Repository/follow users/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:11,114 --> 00:00:11,115
+13. setEncryptedText(findTestObject("Object Repository/follow users/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:11,335 --> 00:00:11,336
+17. click(findTestObject("Object Repository/follow users/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:17,313 --> 00:00:17,314
+21. click(findTestObject("Object Repository/follow users/Page_Home/a_connections"))
+
+7
+00:00:20,157 --> 00:00:20,158
+25. click(findTestObject("Object Repository/follow users/Page_Connections/a_Followings"))
+
+8
+00:00:20,606 --> 00:00:20,607
+29. setText(findTestObject("Object Repository/follow users/Page_Connections/input_View all_searchText"), "suraj kumar")
+
+9
+00:00:20,944 --> 00:00:20,945
+33. click(findTestObject("Rate/Page_Home/Search user button"))
+
+10
+00:00:27,261 --> 00:00:27,262
+37. click(findTestObject("follow users/Click suraj kumar"))
+
+11
+00:00:27,671 --> 00:00:27,673
+41. delay(3)
+
+12
+00:00:30,680 --> 00:00:30,681
+45. click(findTestObject("Object Repository/follow users/Page_View Profile/button_Follow"))
+
+13
+00:01:01,530 --> 00:01:01,531
+1. closeBrowser()
+

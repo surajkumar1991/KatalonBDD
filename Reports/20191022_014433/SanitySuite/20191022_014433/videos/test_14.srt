@@ -1,0 +1,40 @@
+1
+00:00:00,397 --> 00:00:00,398
+1. openBrowser("")
+
+2
+00:00:04,882 --> 00:00:04,883
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:11,603 --> 00:00:11,604
+9. setText(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "surajkumarsrivastava1991")
+
+4
+00:00:11,869 --> 00:00:11,870
+13. setEncryptedText(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "nzEsFCGA/BtMPXLkTTMM4w==")
+
+5
+00:00:12,132 --> 00:00:12,133
+17. click(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:17,623 --> 00:00:17,624
+21. setText(findTestObject("Object Repository/Post case/Page_Home/textarea_suraj kumar_txtUserPost"), "Hello my name is uraj")
+
+7
+00:00:20,580 --> 00:00:20,581
+25. click(findTestObject("Object Repository/Post case/Page_Home/button_post"))
+
+8
+00:00:21,118 --> 00:00:21,119
+29. verifyElementVisible(findTestObject("Post case/Page_Home/p_Hello my name is uraj"), STOP_ON_FAILURE)
+
+9
+00:00:21,355 --> 00:00:21,356
+33. closeBrowser()
+
+10
+00:00:23,217 --> 00:00:23,217
+1. closeBrowser()
+

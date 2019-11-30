@@ -4,7 +4,17 @@
    <name>span_Endorse Skills</name>
    <tag></tag>
    <elementGuidId>510d152a-fcd8-4d2a-854c-6826b1a5aa4f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'linkEndorsement' and (text() = 'Endorse Skills' or . = 'Endorse Skills')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='linkEndorsement']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -34,13 +34,23 @@ WebUI.click(findTestObject('Object Repository/Endorse skills/Page_Search/div_Vij
 
 WebUI.click(findTestObject('Endorse skills/Page_Search/search vijay test'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills'))
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.waitForElementClickable(findTestObject('Endorse skills/click on endorse skill'), 5)
+
+not_run: WebUI.click(findTestObject('Endorse skills/click on endorse skill'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/button_Endorse'))
+WebUI.click(findTestObject('Endorse skills/Page_View Profile/button_Endorse'))
 
-WebUI.delay(2)
+WebUI.waitForElementClickable(findTestObject('Endorse skills/Page_View Profile/a_OK'), 5)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Endorse skills/Page_View Profile/a_OK'))
 

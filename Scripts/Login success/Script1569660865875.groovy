@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  Linke
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in'))
 
-WebUI.clearText(findTestObject('Page_Sign Up/input_Username_username'))
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Username_username'), 'testingLink' + System.currentTimeMillis())
 
@@ -63,5 +63,6 @@ WebUI.waitForElementNotPresent(findTestObject('Experience/Page_Edit Profile/load
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/u_Click here_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_LinkedIn Username/a_Finish'))
+
 WebUI.closeBrowser()
 

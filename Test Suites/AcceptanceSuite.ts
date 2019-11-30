@@ -98,7 +98,7 @@
       <guid>9303dde1-eea1-4be6-81a7-3caf5fc2cb4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Moderation of review</testCaseId>
+      <testCaseId>Test Cases/New regression cases/Moderation of review</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1a14ee49-5776-4a04-9088-b31ade86b53b</guid>

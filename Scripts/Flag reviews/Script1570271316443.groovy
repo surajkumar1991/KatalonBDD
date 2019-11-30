@@ -26,6 +26,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/flag review/Page_thewor
 
 WebUI.click(findTestObject('Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
+WebUI.click(findTestObject('flag review/Click profile'))
+
+WebUI.click(findTestObject('flag review/click myprofile'))
+
 WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/span_Report'), 3)
 
 WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/span_Report'))

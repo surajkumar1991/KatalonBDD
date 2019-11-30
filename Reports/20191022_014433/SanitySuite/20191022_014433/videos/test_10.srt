@@ -1,0 +1,72 @@
+1
+00:00:00,447 --> 00:00:00,448
+1. openBrowser("")
+
+2
+00:00:04,980 --> 00:00:04,981
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:11,085 --> 00:00:11,085
+9. setText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "yamanappa@gmail.com")
+
+4
+00:00:11,406 --> 00:00:11,407
+13. setEncryptedText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:11,644 --> 00:00:11,645
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:17,147 --> 00:00:17,148
+21. setText(findTestObject("Rate/Page_Home/input_View all_searchText"), "vijay")
+
+7
+00:00:27,650 --> 00:00:27,651
+25. click(findTestObject("Rate/Page_Home/Search user button"))
+
+8
+00:00:34,286 --> 00:00:34,287
+29. click(findTestObject("connect with user/Page_Search/button_Connect"))
+
+9
+00:00:34,716 --> 00:00:34,716
+33. closeBrowser()
+
+10
+00:00:36,689 --> 00:00:36,691
+37. openBrowser("")
+
+11
+00:00:41,284 --> 00:00:41,285
+41. navigateToUrl("https://qa.thework.life/")
+
+12
+00:00:47,213 --> 00:00:47,213
+45. setText(findTestObject("Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+13
+00:00:47,598 --> 00:00:47,598
+49. setEncryptedText(findTestObject("Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+14
+00:00:47,850 --> 00:00:47,851
+53. click(findTestObject("Object Repository/pending connections/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+15
+00:00:54,503 --> 00:00:54,504
+57. click(findTestObject("Object Repository/pending connections/Page_Home/a_connections"))
+
+16
+00:00:58,015 --> 00:00:58,016
+61. waitForElementVisible(findTestObject("Object Repository/pending connections/Page_Connections/div_Yamanappa Ogennavar                                                                            Accept            Ignore"), 3)
+
+17
+00:01:01,359 --> 00:01:01,360
+65. click(findTestObject("Object Repository/accept connection/Page_Connections/button_Accept"))
+
+18
+00:01:32,403 --> 00:01:32,404
+1. closeBrowser()
+

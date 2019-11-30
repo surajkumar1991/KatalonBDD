@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.AppUrl)
 
-WebUI.navigateToUrl('https://qa.thework.life/')
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
 WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'yamanappa@gmail.com')
@@ -42,7 +42,13 @@ WebUI.delay(5)
 
 WebUI.navigateToUrl('https://qa.thework.life/')
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+=======
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+>>>>>>> 7bb191d1ef8fa5cd5c30e63eeed6a2a4ca0ee528
     'vijayvstest01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 

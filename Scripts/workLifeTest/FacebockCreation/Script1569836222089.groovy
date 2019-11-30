@@ -37,11 +37,11 @@ WebUI.setEncryptedText(findTestObject('FacebookLogin/Page_Facebook/input_Passwor
 
 WebUI.click(findTestObject('FacebookLogin/Page_Facebook/input_Password_login'))
 
-WebUI.delay(5)
+WebUI.delay(12)
 
 WebUI.switchToWindowTitle('Sign Up')
 
-WebUI.delay(5)
+WebUI.delay(12)
 
 WebUI.waitForElementClickable(findTestObject('FacebookLogin/Page_Sign Up/input_Username_username'), 5)
 

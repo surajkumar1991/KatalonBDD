@@ -4,6 +4,16 @@
    <name>textarea_(Optional)_description</name>
    <tag></tag>
    <elementGuidId>e6764ce0-ac16-44af-ad1a-e66f96c7e40e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='txtDescription']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'txtDescription' and @name = 'description']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

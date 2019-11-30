@@ -14,7 +14,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -35,7 +35,7 @@
       <value>3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <value>id(&quot;loginForm&quot;)/div[@class=&quot;top-navbar&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;col-md-2 m-t-40-mob&quot;]/button[@class=&quot;btn primary-btn&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

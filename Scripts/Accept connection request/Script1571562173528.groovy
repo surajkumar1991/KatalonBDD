@@ -38,17 +38,9 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-WebUI.delay(5)
-
 WebUI.navigateToUrl('https://qa.thework.life/')
 
-<<<<<<< HEAD
 WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-=======
-WebUI.delay(4)
-
-WebUI.setText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
->>>>>>> 7bb191d1ef8fa5cd5c30e63eeed6a2a4ca0ee528
     'vijayvstest01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
@@ -72,9 +64,9 @@ WebUI.delay(5)
 
 not_run: WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/img'))
 
-not_run: WebUI.click(findTestObject('Object Repository/accept connection/Page_Connections/button_Disconnect'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/accept connection/Page_Connections/button_Disconnect'))
 
-WebUI.verifyTextPresent('No Connections available', true)
+not_run: WebUI.verifyTextPresent('No Connections available', true)
 
 WebUI.closeBrowser()
 

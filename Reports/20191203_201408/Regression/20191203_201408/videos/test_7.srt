@@ -1,0 +1,16 @@
+1
+00:00:00,340 --> 00:00:00,340
+1. openBrowser("")
+
+2
+00:00:06,262 --> 00:00:06,263
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:16,473 --> 00:00:16,475
+9. setText(findTestObject("Object Repository/follow users/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:16,749 --> 00:00:16,753
+1. closeBrowser()
+

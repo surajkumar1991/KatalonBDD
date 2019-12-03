@@ -1,0 +1,60 @@
+1
+00:00:00,626 --> 00:00:00,627
+1. openBrowser("")
+
+2
+00:00:05,989 --> 00:00:05,991
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:14,432 --> 00:00:14,433
+9. setText(findTestObject("Object Repository/flag a post/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:15,083 --> 00:00:15,085
+13. setEncryptedText(findTestObject("Object Repository/flag a post/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:15,577 --> 00:00:15,578
+17. click(findTestObject("Object Repository/flag a post/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:23,187 --> 00:00:23,189
+21. delay(4)
+
+7
+00:00:27,198 --> 00:00:27,198
+25. click(findTestObject("flag a post/Page_Home/click flag report"))
+
+8
+00:00:27,937 --> 00:00:27,939
+29. waitForElementPresent(findTestObject("flag a post/Page_Home/Report New window"), 3)
+
+9
+00:00:29,090 --> 00:00:29,091
+33. waitForElementClickable(findTestObject("flag a post/Page_Home/click accusatory"), 3)
+
+10
+00:00:29,471 --> 00:00:29,471
+37. click(findTestObject("flag a post/Page_Home/click accusatory"))
+
+11
+00:00:30,090 --> 00:00:30,091
+41. setText(findTestObject("Object Repository/flag a post/Page_Home/textarea_Detail your complaint_txtDetailReport"), "ssgsssfsfsfsffsfsfsfsf")
+
+12
+00:00:30,601 --> 00:00:30,601
+45. click(findTestObject("Object Repository/flag a post/Page_Home/button_Submit"))
+
+13
+00:00:31,318 --> 00:00:31,320
+49. click(findTestObject("Object Repository/flag a post/Page_Home/a_OK"))
+
+14
+00:00:32,820 --> 00:00:32,821
+53. closeBrowser()
+
+15
+00:00:35,147 --> 00:00:35,147
+1. closeBrowser()
+

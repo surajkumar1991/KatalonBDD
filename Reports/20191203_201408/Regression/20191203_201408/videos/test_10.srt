@@ -1,0 +1,28 @@
+1
+00:00:00,507 --> 00:00:00,507
+1. openBrowser("")
+
+2
+00:00:08,300 --> 00:00:08,301
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:16,125 --> 00:00:16,126
+9. currentPassword = "Test@123"
+
+4
+00:00:16,126 --> 00:00:16,130
+13. curentEmail = "newsuraj10001@gmail.com"
+
+5
+00:00:16,133 --> 00:00:16,134
+17. NewEmail = "suraj.kumar@vuclip.com"
+
+6
+00:00:16,136 --> 00:00:16,137
+21. setText(findTestObject("Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+7
+00:00:16,547 --> 00:00:16,547
+1. closeBrowser()
+

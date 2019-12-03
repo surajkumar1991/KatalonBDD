@@ -1,0 +1,84 @@
+1
+00:00:00,328 --> 00:00:00,328
+1. openBrowser(AppUrl)
+
+2
+00:00:13,463 --> 00:00:13,464
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,959 --> 00:00:15,960
+9. setText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:16,570 --> 00:00:16,571
+13. setEncryptedText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:17,046 --> 00:00:17,046
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,721 --> 00:00:22,722
+21. setText(findTestObject("Object Repository/Endorse skills/Page_Home/input_View all_searchText"), "vijay")
+
+7
+00:00:25,792 --> 00:00:25,793
+25. delay(3)
+
+8
+00:00:28,796 --> 00:00:28,806
+29. click(findTestObject("Object Repository/Endorse skills/Page_Search/div_Vijay Test"))
+
+9
+00:00:34,138 --> 00:00:34,139
+33. click(findTestObject("Endorse skills/Page_Search/search vijay test"))
+
+10
+00:00:34,871 --> 00:00:34,872
+37. delay(5)
+
+11
+00:00:39,883 --> 00:00:39,884
+41. click(findTestObject("Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills"))
+
+12
+00:00:40,608 --> 00:00:40,610
+45. delay(5)
+
+13
+00:00:40,615 --> 00:00:40,616
+49. waitForElementClickable(findTestObject("Endorse skills/click on endorse skill"), 5)
+
+14
+00:00:40,620 --> 00:00:40,620
+53. click(findTestObject("Endorse skills/click on endorse skill"))
+
+15
+00:00:40,624 --> 00:00:40,624
+57. delay(5)
+
+16
+00:00:45,628 --> 00:00:45,629
+61. click(findTestObject("Endorse skills/Page_View Profile/button_Endorse"))
+
+17
+00:00:46,278 --> 00:00:46,279
+65. waitForElementClickable(findTestObject("Endorse skills/Page_View Profile/a_OK"), 5)
+
+18
+00:00:47,127 --> 00:00:47,128
+69. delay(5)
+
+19
+00:00:52,132 --> 00:00:52,133
+73. click(findTestObject("Object Repository/Endorse skills/Page_View Profile/a_OK"))
+
+20
+00:00:52,731 --> 00:00:52,731
+77. closeBrowser()
+
+21
+00:00:55,493 --> 00:00:55,493
+1. closeBrowser()
+

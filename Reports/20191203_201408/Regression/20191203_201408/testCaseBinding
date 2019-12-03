@@ -1,0 +1,58 @@
+{"testCaseName":"Test Cases/Login success","testCaseId":"Test Cases/Login success"}
+{"testCaseName":"Test Cases/claim profile","testCaseId":"Test Cases/claim profile"}
+{"testCaseName":"Test Cases/Connect with users","testCaseId":"Test Cases/Connect with users"}
+{"testCaseName":"Test Cases/Accept connection request","testCaseId":"Test Cases/Accept connection request"}
+{"testCaseName":"Test Cases/Flag a post","testCaseId":"Test Cases/Flag a post"}
+{"testCaseName":"Test Cases/Flag reviews","testCaseId":"Test Cases/Flag reviews"}
+{"testCaseName":"Test Cases/Follow users","testCaseId":"Test Cases/Follow users"}
+{"testCaseName":"Test Cases/Endorse skills","testCaseId":"Test Cases/Endorse skills"}
+{"testCaseName":"Test Cases/New regression cases/Activity feed","testCaseId":"Test Cases/New regression cases/Activity feed"}
+{"testCaseName":"Test Cases/New regression cases/change email verification","testCaseId":"Test Cases/New regression cases/change email verification"}
+{"testCaseName":"Test Cases/New regression cases/change setting verification","testCaseId":"Test Cases/New regression cases/change setting verification"}
+{"testCaseName":"Test Cases/New regression cases/Delete Flag review","testCaseId":"Test Cases/New regression cases/Delete Flag review"}
+{"testCaseName":"Test Cases/New regression cases/Email already exists -signup","testCaseId":"Test Cases/New regression cases/Email already exists -signup"}
+{"testCaseName":"Test Cases/New regression cases/Email not exists","testCaseId":"Test Cases/New regression cases/Email not exists"}
+{"testCaseName":"Test Cases/New regression cases/Endorse skills unverified","testCaseId":"Test Cases/New regression cases/Endorse skills unverified"}
+{"testCaseName":"Test Cases/New regression cases/Incorrect SMN","testCaseId":"Test Cases/New regression cases/Incorrect SMN"}
+{"testCaseName":"Test Cases/New regression cases/Invalid SMN FB","testCaseId":"Test Cases/New regression cases/Invalid SMN FB"}
+{"testCaseName":"Test Cases/New regression cases/Message User verification","testCaseId":"Test Cases/New regression cases/Message User verification"}
+{"testCaseName":"Test Cases/New regression cases/Moderation of review","testCaseId":"Test Cases/New regression cases/Moderation of review"}
+{"testCaseName":"Test Cases/New regression cases/Notifications","testCaseId":"Test Cases/New regression cases/Notifications"}
+{"testCaseName":"Test Cases/New regression cases/Review card verification","testCaseId":"Test Cases/New regression cases/Review card verification"}
+{"testCaseName":"Test Cases/New regression cases/Share profile verification and sending","testCaseId":"Test Cases/New regression cases/Share profile verification and sending"}
+{"testCaseName":"Test Cases/New regression cases/SKip verification","testCaseId":"Test Cases/New regression cases/SKip verification"}
+{"testCaseName":"Test Cases/New regression cases/super moderator - delete review","testCaseId":"Test Cases/New regression cases/super moderator - delete review"}
+{"testCaseName":"Test Cases/New regression cases/super moderator -keep review","testCaseId":"Test Cases/New regression cases/super moderator -keep review"}
+{"testCaseName":"Test Cases/New regression cases/Verification failure","testCaseId":"Test Cases/New regression cases/Verification failure"}
+{"testCaseName":"Test Cases/New regression cases/verify PYMK","testCaseId":"Test Cases/New regression cases/verify PYMK"}
+{"testCaseName":"Test Cases/Post something","testCaseId":"Test Cases/Post something"}
+{"testCaseName":"Test Cases/Rate users - third party","testCaseId":"Test Cases/Rate users - third party"}
+{"testCaseName":"Test Cases/Rate users","testCaseId":"Test Cases/Rate users"}
+{"testCaseName":"Test Cases/Search users","testCaseId":"Test Cases/Search users"}
+{"testCaseName":"Test Cases/Third party profile","testCaseId":"Test Cases/Third party profile"}
+{"testCaseName":"Test Cases/Thumbing - Upvote and downvote","testCaseId":"Test Cases/Thumbing - Upvote and downvote"}
+{"testCaseName":"Test Cases/Verify connection","testCaseId":"Test Cases/Verify connection"}
+{"testCaseName":"Test Cases/verify pending connctions","testCaseId":"Test Cases/verify pending connctions"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Delete Experience","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Delete Experience"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Edit Exeperience","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Edit Exeperience"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Edit Profile and Change Pic","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Edit Profile and Change Pic"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Endorse User with No Realtion","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Endorse User with No Realtion"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Rateuser With Unverified user","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Rateuser With Unverified user"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BBD Rateuser With verified user with No Relation","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BBD Rateuser With verified user with No Relation"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BDD Connect with users with No RealtionShip","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BDD Connect with users with No RealtionShip"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/BDD Thumbing User With No RelationShip","testCaseId":"Test Cases/workLifeTest/BBDTestCases/BDD Thumbing User With No RelationShip"}
+{"testCaseName":"Test Cases/workLifeTest/BBDTestCases/ProfileView Verified User","testCaseId":"Test Cases/workLifeTest/BBDTestCases/ProfileView Verified User"}
+{"testCaseName":"Test Cases/workLifeTest/FacebockCreation","testCaseId":"Test Cases/workLifeTest/FacebockCreation"}
+{"testCaseName":"Test Cases/workLifeTest/FailureTest","testCaseId":"Test Cases/workLifeTest/FailureTest"}
+{"testCaseName":"Test Cases/workLifeTest/FollowerVerification-","testCaseId":"Test Cases/workLifeTest/FollowerVerification-"}
+{"testCaseName":"Test Cases/workLifeTest/FollowingVerification","testCaseId":"Test Cases/workLifeTest/FollowingVerification"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileCreationAddSkill","testCaseId":"Test Cases/workLifeTest/ProfileCreationAddSkill"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileCreationEducationDetails","testCaseId":"Test Cases/workLifeTest/ProfileCreationEducationDetails"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileCreationExperience","testCaseId":"Test Cases/workLifeTest/ProfileCreationExperience"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileCreationPersonalDetails","testCaseId":"Test Cases/workLifeTest/ProfileCreationPersonalDetails"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileDeletion","testCaseId":"Test Cases/workLifeTest/ProfileDeletion"}
+{"testCaseName":"Test Cases/workLifeTest/ProfileDeletionLinkedInUser","testCaseId":"Test Cases/workLifeTest/ProfileDeletionLinkedInUser"}
+{"testCaseName":"Test Cases/workLifeTest/RateUnverifiedUserByVerified","testCaseId":"Test Cases/workLifeTest/RateUnverifiedUserByVerified"}
+{"testCaseName":"Test Cases/workLifeTest/ReaquireTest","testCaseId":"Test Cases/workLifeTest/ReaquireTest"}
+{"testCaseName":"Test Cases/workLifeTest/RecommendationCheck","testCaseId":"Test Cases/workLifeTest/RecommendationCheck"}
+{"testCaseName":"Test Cases/workLifeTest/RecreationofProfile","testCaseId":"Test Cases/workLifeTest/RecreationofProfile"}

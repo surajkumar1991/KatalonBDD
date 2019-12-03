@@ -46,3 +46,5 @@ WebUI.setText(findTestObject('Object Repository/BDDFolder/EditExeperiece/Page_Ed
 
 WebUI.click(findTestObject('Object Repository/BDDFolder/EditExeperiece/Page_Edit Profile/button_Save'))
 
+WebUI.closeBrowser()
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Acceptance" time="17.932" tests="1" failures="0" errors="0">
+   <testsuite name="Acceptance" tests="1" failures="0" errors="0" time="17.932" timestamp="2019-12-03 19:14:30" hostname="akhilesh - 192.168.1.6" id="Test Suites/Acceptance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/akhilesh/git/KatalonBDD1/Reports/20191203_191411/Acceptance/20191203_191411"/>
+         <property name="logFiles" value="/Users/akhilesh/git/KatalonBDD1/Reports/20191203_191411/Acceptance/20191203_191411/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="akhilesh - 192.168.1.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="3509b409-3898-7648-b663-d30706d7c2f7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Rate users - third party" time="17.757" classname="Test Cases/Rate users - third party" status="INCOMPLETE">
+         <system-out><![CDATA[2019-12-03 19:14:30 - [TEST_CASE][INCOMPLETE] - Test Cases/Rate users - third party: null
+
+2019-12-03 19:14:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2019-12-03 19:14:31 - [TEST_STEP][PASSED] - openBrowser(AppUrl): Browser is opened with url: 'https://qa.thework.life'
+
+2019-12-03 19:14:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-03 19:14:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-03 19:14:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.thework.life'
+
+2019-12-03 19:14:45 - [TEST_STEP][PASSED] - navigateToUrl(AppUrl): Navigate to 'https://qa.thework.life' successfully
+
+2019-12-03 19:14:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.thework.life' successfully
+
+2019-12-03 19:14:47 - [TEST_STEP][INCOMPLETE] - setText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[2019-12-03 19:14:30 - [TEST_CASE][INCOMPLETE] - Test Cases/Rate users - third party: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-03 19:14:30 - [TEST_SUITE][INCOMPLETE] - Acceptance: null]]></system-out>
+      <system-err><![CDATA[2019-12-03 19:14:30 - [TEST_SUITE][INCOMPLETE] - Acceptance: null]]></system-err>
+   </testsuite>
+</testsuites>

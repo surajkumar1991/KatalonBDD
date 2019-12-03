@@ -1,0 +1,76 @@
+1
+00:00:00,076 --> 00:00:00,077
+1. skill = "SkillInput" + System.currentTimeMillis()
+
+2
+00:00:00,078 --> 00:00:00,078
+5. openBrowser(AppUrl)
+
+3
+00:00:08,574 --> 00:00:08,576
+9. navigateToUrl(AppUrl)
+
+4
+00:00:11,742 --> 00:00:11,742
+13. setText(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+5
+00:00:12,242 --> 00:00:12,243
+17. setEncryptedText(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+6
+00:00:12,525 --> 00:00:12,525
+21. click(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+7
+00:00:18,211 --> 00:00:18,212
+25. click(findTestObject("Object Repository/SkillPageObject/Page_Home/a_profile"))
+
+8
+00:00:20,127 --> 00:00:20,127
+29. click(findTestObject("Object Repository/SkillPageObject/Page_Home/a_Edit Profile"))
+
+9
+00:00:28,517 --> 00:00:28,517
+33. click(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/a_Skills"))
+
+10
+00:00:29,212 --> 00:00:29,212
+37. click(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name"))
+
+11
+00:00:30,607 --> 00:00:30,607
+41. clearText(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name"))
+
+12
+00:00:30,853 --> 00:00:30,853
+45. delay(1)
+
+13
+00:00:31,856 --> 00:00:31,856
+49. sendKeys(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name"), skill.toString())
+
+14
+00:00:32,159 --> 00:00:32,160
+53. delay(3)
+
+15
+00:00:35,165 --> 00:00:35,165
+57. click(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/div_Add Skills                                                                                    Add Skill"))
+
+16
+00:00:35,624 --> 00:00:35,625
+61. click(findTestObject("Object Repository/SkillPageObject/Page_Edit Profile/button_Add Skill"))
+
+17
+00:00:36,089 --> 00:00:36,090
+65. println(skill)
+
+18
+00:00:36,102 --> 00:00:36,102
+69. verifyElementPresent(findTestObject("SkillPageObject/Page_Edit Profile/li_test123450", ["text":skill]), 0)
+
+19
+00:00:37,081 --> 00:00:37,081
+1. closeBrowser()
+

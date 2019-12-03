@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(GlobalVariable.AppUrl)
 
@@ -32,7 +34,7 @@ WebUI.click(findTestObject('flag review/click myprofile'))
 
 WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/span_Report'), 3)
 
-WebUI.click(findTestObject('Object Repository/flag review/Page_View Profile/span_Report'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('flag review/Page_View Profile/click btn-btn report'))
 

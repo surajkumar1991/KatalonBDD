@@ -1,0 +1,48 @@
+1
+00:00:00,067 --> 00:00:00,068
+1. openBrowser(AppUrl)
+
+2
+00:00:10,982 --> 00:00:10,983
+5. navigateToUrl(AppUrl)
+
+3
+00:00:13,167 --> 00:00:13,167
+9. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:13,864 --> 00:00:13,864
+13. waitForElementPresent(findTestObject("Page_theworklife - Find Great People To Work With/button_LinkedIn"), 5)
+
+5
+00:00:14,323 --> 00:00:14,324
+17. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/button_LinkedIn"))
+
+6
+00:00:15,608 --> 00:00:15,608
+21. setText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key"), "testing@appliedaiconsulting.com")
+
+7
+00:00:16,825 --> 00:00:16,830
+25. setEncryptedText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+8
+00:00:17,187 --> 00:00:17,188
+29. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/span_Show"))
+
+9
+00:00:17,690 --> 00:00:17,690
+33. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in"))
+
+10
+00:00:23,478 --> 00:00:23,478
+37. delay(5)
+
+11
+00:00:28,489 --> 00:00:28,489
+41. setText(findTestObject("Object Repository/Page_Sign Up/input_Username_username"), "testingLink" + System.currentTimeMillis())
+
+12
+00:01:14,310 --> 00:01:14,310
+1. closeBrowser()
+

@@ -1,0 +1,44 @@
+1
+00:00:00,063 --> 00:00:00,063
+1. openBrowser(AppUrl)
+
+2
+00:00:07,783 --> 00:00:07,784
+5. navigateToUrl(AppUrl)
+
+3
+00:00:10,064 --> 00:00:10,064
+9. setText(findTestObject("Object Repository/Search user/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:10,567 --> 00:00:10,568
+13. setEncryptedText(findTestObject("Object Repository/Search user/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:10,862 --> 00:00:10,862
+17. click(findTestObject("Object Repository/Search user/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:18,308 --> 00:00:18,309
+21. waitForElementClickable(findTestObject("Object Repository/Rate/Page_Home/input_View all_searchText"), 2)
+
+7
+00:00:18,779 --> 00:00:18,779
+25. setText(findTestObject("Object Repository/Rate/Page_Home/input_View all_searchText"), "vijay")
+
+8
+00:00:19,065 --> 00:00:19,066
+29. click(findTestObject("Search user/Search user button"))
+
+9
+00:00:24,890 --> 00:00:24,891
+33. click(findTestObject("Object Repository/Rate/Page_Search/div_Vijay Test"))
+
+10
+00:00:25,572 --> 00:00:25,572
+37. closeBrowser()
+
+11
+00:00:27,298 --> 00:00:27,298
+1. closeBrowser()
+

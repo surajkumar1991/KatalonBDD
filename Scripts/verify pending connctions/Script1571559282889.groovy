@@ -18,18 +18,17 @@ WebUI.openBrowser(GlobalVariable.AppUrl)
 
 WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
-WebUI.setText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+WebUI.setEncryptedText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
 
-WebUI.click(findTestObject('Object Repository/pending connections/Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('Experience/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/pending connections/Page_Home/a_connections'))
+WebUI.click(findTestObject('pending connections/Page_Home/a_connections'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/pending connections/Page_Connections/div_Yamanappa Ogennavar                                                                            Accept            Ignore'), 
-    3)
+WebUI.waitForElementVisible(findTestObject('Review card/Page_Connections/div_Yamanappa Ogennavar'), 3)
 
 WebUI.closeBrowser()
 

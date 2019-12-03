@@ -32,11 +32,13 @@ WebUI.click(findTestObject('Search user/Search user button'))
 
 WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija'), 3)
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija'))
 
-WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'), 5)
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'), 5)
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_View Profile/span_Agree'))
 

@@ -1,0 +1,28 @@
+1
+00:00:00,509 --> 00:00:00,518
+1. openBrowser(AppUrl)
+
+2
+00:26:54,372 --> 00:26:54,414
+5. navigateToUrl(AppUrl)
+
+3
+00:27:00,398 --> 00:27:00,405
+9. setText(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "surajkumarsrivastava1991")
+
+4
+00:27:02,889 --> 00:27:02,896
+13. setEncryptedText(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "nzEsFCGA/BtMPXLkTTMM4w==")
+
+5
+00:27:04,464 --> 00:27:04,470
+17. click(findTestObject("Object Repository/Post case/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:27:11,336 --> 00:27:11,341
+21. setText(findTestObject("Object Repository/Post case/Page_Home/textarea_suraj kumar_txtUserPost"), "Hello my name is uraj")
+
+7
+00:33:31,254 --> 00:33:31,254
+1. closeBrowser()
+

@@ -1,0 +1,56 @@
+1
+00:00:00,057 --> 00:00:00,057
+1. openBrowser(AppUrl)
+
+2
+00:00:08,195 --> 00:00:08,195
+5. navigateToUrl(AppUrl)
+
+3
+00:00:10,348 --> 00:00:10,348
+9. setText(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:10,853 --> 00:00:10,853
+13. setEncryptedText(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:11,132 --> 00:00:11,132
+17. click(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:20,223 --> 00:00:20,223
+21. setText(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_Home/input_View all_searchText"), "User User")
+
+7
+00:00:20,743 --> 00:00:20,744
+25. click(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_Home/button_No search results_btnSearch"))
+
+8
+00:00:27,843 --> 00:00:27,844
+29. click(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_Search/div_user user"))
+
+9
+00:00:28,559 --> 00:00:28,560
+33. click(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_View Profile/button_Rate Now"))
+
+10
+00:00:33,854 --> 00:00:33,855
+37. delay(5)
+
+11
+00:00:38,858 --> 00:00:38,858
+41. verifyElementText(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_View Profile/p_This is an unverified user Please input Facebook or LinkedIn Profile Link for user user"), "This is an unverified user. Please input Facebook or LinkedIn Profile Link for user user.")
+
+12
+00:00:39,109 --> 00:00:39,109
+45. click(findTestObject("Object Repository/VerifiedUserRatingUnverified/Page_View Profile/button_Cancel"))
+
+13
+00:00:39,579 --> 00:00:39,580
+49. closeBrowser()
+
+14
+00:00:41,115 --> 00:00:41,115
+1. closeBrowser()
+

@@ -1,0 +1,60 @@
+1
+00:00:00,060 --> 00:00:00,060
+1. openBrowser(AppUrl)
+
+2
+00:00:09,963 --> 00:00:09,968
+5. navigateToUrl(AppUrl)
+
+3
+00:00:12,683 --> 00:00:12,683
+9. setText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "testing@appliedaiconsulting.com")
+
+4
+00:00:13,246 --> 00:00:13,248
+13. setEncryptedText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+5
+00:00:13,584 --> 00:00:13,585
+17. click(findTestObject("Experience/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:24,282 --> 00:00:24,283
+21. click(findTestObject("Object Repository/DeletionObject/Page_Home/i_Settings_fa fa-gear"))
+
+7
+00:00:24,966 --> 00:00:24,966
+25. click(findTestObject("Object Repository/DeletionObject/Page_Home/a_Settings"))
+
+8
+00:00:29,938 --> 00:00:29,938
+29. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Account Basics"))
+
+9
+00:00:30,613 --> 00:00:30,613
+33. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Delete Account"))
+
+10
+00:00:31,086 --> 00:00:31,086
+37. setEncryptedText(findTestObject("Object Repository/DeletionObject/Page_Settings/input_Enter your password to confirm_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+11
+00:00:31,483 --> 00:00:31,489
+41. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_Delete"))
+
+12
+00:00:31,961 --> 00:00:31,964
+45. waitForElementClickable(findTestObject("DeletionObject/Page_Settings/a_OK"), 0)
+
+13
+00:00:32,693 --> 00:00:32,694
+49. waitForElementVisible(findTestObject("DeletionObject/Page_Settings/a_OK"), 0)
+
+14
+00:00:33,040 --> 00:00:33,041
+53. click(findTestObject("Object Repository/DeletionObject/Page_Settings/a_OK"))
+
+15
+00:00:33,519 --> 00:00:33,520
+1. closeBrowser()
+

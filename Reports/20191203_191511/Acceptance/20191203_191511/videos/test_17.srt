@@ -1,0 +1,28 @@
+1
+00:00:00,093 --> 00:00:00,093
+1. openBrowser(AppUrl)
+
+2
+00:00:10,003 --> 00:00:10,004
+5. navigateToUrl(AppUrl)
+
+3
+00:00:13,443 --> 00:00:13,443
+9. setText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10002@gmail.com")
+
+4
+00:00:14,004 --> 00:00:14,005
+13. setEncryptedText(findTestObject("Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:14,364 --> 00:00:14,365
+17. click(findTestObject("Experience/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:18,709 --> 00:00:18,710
+21. click(findTestObject("Object Repository/DeletionObject/Page_Home/i_Settings_fa fa-gear"))
+
+7
+00:01:02,227 --> 00:01:02,227
+1. closeBrowser()
+

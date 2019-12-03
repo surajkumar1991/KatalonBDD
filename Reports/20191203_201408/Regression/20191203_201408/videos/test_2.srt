@@ -1,0 +1,132 @@
+1
+00:00:00,560 --> 00:00:00,564
+1. openBrowser(AppUrl)
+
+2
+00:00:14,862 --> 00:00:14,863
+5. navigateToUrl(AppUrl)
+
+3
+00:00:17,654 --> 00:00:17,657
+9. setText(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:18,160 --> 00:00:18,162
+13. setEncryptedText(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:18,676 --> 00:00:18,677
+17. click(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:24,412 --> 00:00:24,413
+21. setText(findTestObject("Object Repository/Third party/Page_Home/input_View all_searchText"), "user")
+
+7
+00:00:27,253 --> 00:00:27,255
+25. click(findTestObject("Third party/Page_Search/Search user button"))
+
+8
+00:00:36,144 --> 00:00:36,145
+29. waitForElementVisible(findTestObject("Third party/Page_Search/span_Create their profile anonymously"), 3)
+
+9
+00:00:37,726 --> 00:00:37,728
+33. click(findTestObject("Object Repository/Third party/Page_Search/span_Create their profile anonymously"))
+
+10
+00:00:38,483 --> 00:00:38,485
+37. waitForElementVisible(findTestObject("Third party/Page_Search/div_(Optional)_multiple_emails-container"), 3)
+
+11
+00:00:39,294 --> 00:00:39,296
+41. click(findTestObject("Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container"))
+
+12
+00:00:40,003 --> 00:00:40,004
+45. setText(findTestObject("Object Repository/Third party/Page_Search/input_Linkedin_txtLiLink"), "appliedai" + System.currentTimeMillis())
+
+13
+00:00:40,710 --> 00:00:40,711
+49. click(findTestObject("Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container"))
+
+14
+00:00:41,419 --> 00:00:41,420
+53. setText(findTestObject("Object Repository/Third party/Page_Search/input_(Optional)_multiple_emails-input text-left"), "testing@appliedaiconsulting.com")
+
+15
+00:00:41,948 --> 00:00:41,949
+57. setText(findTestObject("Object Repository/Third party/Page_Search/input_Name_txtFirstName"), "dd" + System.currentTimeMillis())
+
+16
+00:00:42,423 --> 00:00:42,424
+61. UserToSearch = getText(findTestObject("Third party/Page_Search/input_Name_txtFirstName"))
+
+17
+00:00:42,906 --> 00:00:42,907
+65. click(findTestObject("Object Repository/Third party/Page_Search/button_Add"))
+
+18
+00:00:43,587 --> 00:00:43,589
+69. waitForElementClickable(findTestObject("Third party/Page_Search/a_OK"), 3)
+
+19
+00:00:47,565 --> 00:00:47,566
+73. sleep(4000)
+
+20
+00:00:51,572 --> 00:00:51,579
+77. click(findTestObject("Third party/Page_Search/a_OK"))
+
+21
+00:00:58,939 --> 00:00:58,941
+81. closeBrowser()
+
+22
+00:01:01,599 --> 00:01:01,602
+85. openBrowser(AppUrl)
+
+23
+00:01:16,481 --> 00:01:16,482
+89. navigateToUrl(AppUrl)
+
+24
+00:01:19,091 --> 00:01:19,093
+93. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+25
+00:01:19,789 --> 00:01:19,791
+97. waitForElementPresent(findTestObject("Page_theworklife - Find Great People To Work With/button_LinkedIn"), 5)
+
+26
+00:01:20,228 --> 00:01:20,231
+101. click(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/button_LinkedIn"))
+
+27
+00:01:22,374 --> 00:01:22,375
+105. setText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key"), "testing@appliedaiconsulting.com")
+
+28
+00:01:24,435 --> 00:01:24,436
+109. setEncryptedText(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_password"), "YpWQ2DI2eLzqZleLDbTOWw==")
+
+29
+00:01:24,927 --> 00:01:24,928
+113. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/span_Show"))
+
+30
+00:01:25,590 --> 00:01:25,592
+117. click(findTestObject("Object Repository/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in"))
+
+31
+00:01:32,890 --> 00:01:32,891
+121. delay(5)
+
+32
+00:01:38,206 --> 00:01:38,207
+125. setText(findTestObject("Object Repository/Page_Sign Up/input_Username_username"), "testingLink" + System.currentTimeMillis())
+
+33
+00:02:24,067 --> 00:02:24,067
+1. closeBrowser()
+

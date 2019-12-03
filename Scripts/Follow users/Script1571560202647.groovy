@@ -13,38 +13,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.thework.life/')
 
-WebUI.setText(findTestObject('Object Repository/follow users/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+WebUI.setText(findTestObject('Object Repository/follow/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/follow users/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/follow/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
 
-WebUI.click(findTestObject('Object Repository/follow users/Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/follow/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/follow users/Page_Home/a_connections'))
+WebUI.setText(findTestObject('Object Repository/follow/Page_Home/input_View all_searchText'), 'suraj kumar')
 
-WebUI.click(findTestObject('Object Repository/follow users/Page_Connections/a_Followings'))
+WebUI.click(findTestObject('Object Repository/follow/Page_Home/img'))
 
-WebUI.setText(findTestObject('Object Repository/follow users/Page_Connections/input_View all_searchText'), 'suraj kumar')
+WebUI.click(findTestObject('Object Repository/follow/Page_Search/div_suraj kumar'))
 
-WebUI.click(findTestObject('Rate/Page_Home/Search user button'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('follow users/Click suraj kumar'))
+WebUI.click(findTestObject('Object Repository/follow/Page_View Profile/button_Follow'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/follow users/Page_View Profile/button_Follow'))
-
-WebUI.delay(3)
-
-WebUI.waitForElementClickable(findTestObject('follow users/Page_View Profile/button_Unfollow'), 7)
-
-WebUI.click(findTestObject('Object Repository/follow users/Page_View Profile/button_Unfollow'))
+WebUI.click(findTestObject('Object Repository/follow/Page_View Profile/button_Unfollow'))
 
 WebUI.closeBrowser()
 

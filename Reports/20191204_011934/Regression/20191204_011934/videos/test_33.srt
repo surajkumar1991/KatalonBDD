@@ -1,0 +1,48 @@
+1
+00:00:00,530 --> 00:00:00,530
+1. openBrowser(AppUrl)
+
+2
+00:00:12,853 --> 00:00:12,854
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,058 --> 00:00:15,059
+9. setText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:15,602 --> 00:00:15,603
+13. setEncryptedText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:15,996 --> 00:00:15,997
+17. click(findTestObject("Object Repository/Page_theworklife/button_Sign in"))
+
+6
+00:00:23,074 --> 00:00:23,074
+21. navigateToUrl("https://qa.thework.life/Profile/EditProfile")
+
+7
+00:00:28,460 --> 00:00:28,460
+25. click(findTestObject("Object Repository/BDDFolder/EditExeperiece/Page_Edit Profile/a_Experience"))
+
+8
+00:00:29,109 --> 00:00:29,110
+29. waitForElementNotPresent(findTestObject("Object Repository/Experience/Page_Edit Profile/loader"), 10)
+
+9
+00:00:39,973 --> 00:00:39,974
+33. click(findTestObject("BDDFolder/EditExeperiece/Delete Button"))
+
+10
+00:00:40,538 --> 00:00:40,539
+37. click(findTestObject("BDDFolder/EditExeperiece/Yes button"))
+
+11
+00:00:41,169 --> 00:00:41,170
+41. closeBrowser()
+
+12
+00:00:43,195 --> 00:00:43,197
+1. closeBrowser()
+

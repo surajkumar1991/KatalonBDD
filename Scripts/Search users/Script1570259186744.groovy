@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl('https://www.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/Search user/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10001@gmail.com')
@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Search user/Page_theworklife - Fin
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Rate/Page_Home/input_View all_searchText'), 2)
 
-WebUI.setText(findTestObject('Object Repository/Rate/Page_Home/input_View all_searchText'), 'vijay')
+WebUI.setText(findTestObject('Object Repository/Rate/Page_Home/input_View all_searchText'), 'vijay test')
 
 WebUI.click(findTestObject('Search user/Search user button'))
 

@@ -1,0 +1,124 @@
+1
+00:00:00,531 --> 00:00:00,531
+1. openBrowser(AppUrl)
+
+2
+00:00:12,353 --> 00:00:12,354
+5. navigateToUrl(AppUrl)
+
+3
+00:00:14,698 --> 00:00:14,699
+9. setText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:15,301 --> 00:00:15,302
+13. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "x8UobeF0bbxd7GrPsdhkIlsTrhBxwBw1")
+
+5
+00:00:15,691 --> 00:00:15,691
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:18,672 --> 00:00:18,672
+21. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Password does not match_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+7
+00:00:19,166 --> 00:00:19,167
+25. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+8
+00:00:26,423 --> 00:00:26,423
+29. setText(findTestObject("Object Repository/Rate/Page_Home/input_View all_searchText"), "user1570385143181")
+
+9
+00:00:27,146 --> 00:00:27,148
+33. click(findTestObject("Rate/Page_Home/Search user button"))
+
+10
+00:00:33,392 --> 00:00:33,392
+37. click(findTestObject("Rate/Page_Home/click on user to rate"))
+
+11
+00:00:34,056 --> 00:00:34,061
+41. click(findTestObject("Rate/Page_Home/Click rate now"))
+
+12
+00:00:39,570 --> 00:00:39,571
+45. waitForElementClickable(findTestObject("Rate/Page_View Profile/span_Desire to work with again_star3"), 5)
+
+13
+00:00:42,168 --> 00:00:42,169
+49. sleep(5000)
+
+14
+00:00:42,171 --> 00:00:42,172
+53. delay(5)
+
+15
+00:00:47,174 --> 00:00:47,174
+57. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Desire to work with again_star3"))
+
+16
+00:00:47,710 --> 00:00:47,711
+61. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Encourages work life balance_star3"))
+
+17
+00:00:48,223 --> 00:00:48,223
+65. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Dependability_star3"))
+
+18
+00:00:48,758 --> 00:00:48,759
+69. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Solution Seeker_star3"))
+
+19
+00:00:49,276 --> 00:00:49,277
+73. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Willingness to Learn_star3"))
+
+20
+00:00:49,804 --> 00:00:49,805
+77. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Enthusiasm_star3"))
+
+21
+00:00:50,332 --> 00:00:50,333
+81. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Clarity in Communication_star3"))
+
+22
+00:00:50,847 --> 00:00:50,847
+85. click(findTestObject("Object Repository/Rate/Page_View Profile/span_Mutual Respect_star3"))
+
+23
+00:00:51,392 --> 00:00:51,393
+89. click(findTestObject("Object Repository/Rate/Page_View Profile/button_Next"))
+
+24
+00:00:51,924 --> 00:00:51,925
+93. waitForElementClickable(findTestObject("Rate/Page_View Profile/textarea_test recomendation test on qa enviornment for vijay test account"), 3)
+
+25
+00:00:52,477 --> 00:00:52,478
+97. setText(findTestObject("Object Repository/Rate/Page_View Profile/textarea_test recomendation test on qa enviornment for vijay test account"), "test recomendation test on qa enviornment for vijay test account tst test test test for recommendation test scenario vijay test")
+
+26
+00:00:53,074 --> 00:00:53,075
+101. click(findTestObject("Object Repository/Rate/Page_View Profile/button_Submit"))
+
+27
+00:00:53,788 --> 00:00:53,789
+105. waitForElementClickable(findTestObject("Rate/Page_View Profile/a_OK"), 3)
+
+28
+00:00:55,082 --> 00:00:55,083
+109. delay(5)
+
+29
+00:01:00,088 --> 00:01:00,089
+113. click(findTestObject("Rate/Page_View Profile/a_OK"))
+
+30
+00:01:00,609 --> 00:01:00,610
+117. closeBrowser()
+
+31
+00:01:02,735 --> 00:01:02,735
+1. closeBrowser()
+

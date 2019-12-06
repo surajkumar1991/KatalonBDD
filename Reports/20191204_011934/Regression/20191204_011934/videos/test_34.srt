@@ -1,0 +1,68 @@
+1
+00:00:00,432 --> 00:00:00,432
+1. openBrowser(AppUrl)
+
+2
+00:00:12,710 --> 00:00:12,711
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,026 --> 00:00:15,027
+9. setText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_username"), "worklifetest10004@gmail.com")
+
+4
+00:00:15,565 --> 00:00:15,565
+13. setEncryptedText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:16,026 --> 00:00:16,026
+17. click(findTestObject("Object Repository/Page_theworklife/button_Sign in"))
+
+6
+00:00:22,616 --> 00:00:22,618
+21. navigateToUrl("https://qa.thework.life/Profile/EditProfile")
+
+7
+00:00:27,533 --> 00:00:27,533
+25. click(findTestObject("Object Repository/BDDFolder/EditExeperiece/Page_Edit Profile/a_Experience"))
+
+8
+00:00:28,282 --> 00:00:28,282
+29. waitForElementNotPresent(findTestObject("Object Repository/Experience/Page_Edit Profile/loader"), 10)
+
+9
+00:00:38,432 --> 00:00:38,432
+33. click(findTestObject("Object Repository/BDDFolder/EditExeperiece/ClickonEditButton"))
+
+10
+00:00:38,974 --> 00:00:38,975
+37. scrollToElement(findTestObject("Object Repository/BDDFolder/EditExeperiece/DescriptiontextBox"), 3)
+
+11
+00:00:41,308 --> 00:00:41,308
+41. delay(5)
+
+12
+00:00:46,312 --> 00:00:46,313
+45. click(findTestObject("BDDFolder/EditExeperiece/Page_Edit Profile/textarea_ugugih"), STOP_ON_FAILURE)
+
+13
+00:00:46,874 --> 00:00:46,875
+49. clearText(findTestObject("BDDFolder/EditExeperiece/Page_Edit Profile/textarea_ugugih"))
+
+14
+00:00:47,249 --> 00:00:47,249
+53. setText(findTestObject("Object Repository/BDDFolder/EditExeperiece/Page_Edit Profile/textarea_ugugih"), "abcd test")
+
+15
+00:00:47,657 --> 00:00:47,658
+57. click(findTestObject("Object Repository/BDDFolder/EditExeperiece/Page_Edit Profile/button_Save"))
+
+16
+00:00:48,354 --> 00:00:48,355
+61. closeBrowser()
+
+17
+00:00:50,239 --> 00:00:50,239
+1. closeBrowser()
+

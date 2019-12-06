@@ -1,0 +1,24 @@
+1
+00:00:00,595 --> 00:00:00,595
+1. openBrowser("")
+
+2
+00:00:05,870 --> 00:00:05,872
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:13,072 --> 00:00:13,073
+9. setText(findTestObject("Object Repository/PYMK/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:13,674 --> 00:00:13,675
+13. setEncryptedText(findTestObject("Object Repository/PYMK/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:14,138 --> 00:00:14,138
+17. verifyTextPresent("PEOPLE YOU MAY KNOW", true)
+
+6
+00:00:14,865 --> 00:00:14,866
+1. closeBrowser()
+

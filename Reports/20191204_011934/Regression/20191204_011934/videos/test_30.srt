@@ -1,0 +1,52 @@
+1
+00:00:00,443 --> 00:00:00,443
+1. openBrowser(AppUrl)
+
+2
+00:00:12,974 --> 00:00:12,975
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,151 --> 00:00:15,152
+9. setText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:15,647 --> 00:00:15,648
+13. setEncryptedText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:16,073 --> 00:00:16,074
+17. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:21,812 --> 00:00:21,813
+21. setText(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText"), "suraj")
+
+7
+00:00:23,690 --> 00:00:23,691
+25. click(findTestObject("Search user/Search user button"))
+
+8
+00:00:31,294 --> 00:00:31,295
+29. waitForElementClickable(findTestObject("Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija"), 3)
+
+9
+00:00:31,757 --> 00:00:31,758
+33. delay(5)
+
+10
+00:00:36,761 --> 00:00:36,762
+37. click(findTestObject("Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija"))
+
+11
+00:00:37,371 --> 00:00:37,371
+41. delay(3)
+
+12
+00:00:40,376 --> 00:00:40,376
+45. scrollToElement(findTestObject("Thumbing-Upvote and Downvote/Page_View Profile/span_Agree"), 5)
+
+13
+00:01:25,296 --> 00:01:25,297
+1. closeBrowser()
+

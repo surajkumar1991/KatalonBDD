@@ -1,0 +1,40 @@
+1
+00:00:00,640 --> 00:00:00,641
+1. openBrowser("")
+
+2
+00:00:05,915 --> 00:00:05,916
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:12,937 --> 00:00:12,937
+9. setText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "yamanappa@gmail.com")
+
+4
+00:00:13,586 --> 00:00:13,587
+13. setEncryptedText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:14,007 --> 00:00:14,008
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:19,761 --> 00:00:19,761
+21. waitForElementPresent(findTestObject("connect with user/Page_Home/a_connections"), 3)
+
+7
+00:00:22,630 --> 00:00:22,630
+25. delay(4)
+
+8
+00:00:26,634 --> 00:00:26,635
+29. click(findTestObject("connect with user/Page_Home/a_connections"))
+
+9
+00:00:30,056 --> 00:00:30,056
+33. verifyTextNotPresent("No Connections available", false)
+
+10
+00:00:31,351 --> 00:00:31,352
+1. closeBrowser()
+

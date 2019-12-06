@@ -1,0 +1,72 @@
+1
+00:00:00,530 --> 00:00:00,531
+1. openBrowser(AppUrl)
+
+2
+00:00:13,054 --> 00:00:13,055
+5. navigateToUrl(AppUrl)
+
+3
+00:00:16,816 --> 00:00:16,817
+9. setText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10004@gmail.com")
+
+4
+00:00:17,443 --> 00:00:17,443
+13. setEncryptedText(findTestObject("Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:17,882 --> 00:00:17,882
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:24,623 --> 00:00:24,624
+21. waitForElementPresent(findTestObject("connect with user/Page_Home/a_connections"), 3)
+
+7
+00:00:25,016 --> 00:00:25,016
+25. delay(4)
+
+8
+00:00:29,020 --> 00:00:29,020
+29. click(findTestObject("connect with user/Page_Home/a_connections"))
+
+9
+00:00:31,938 --> 00:00:31,938
+33. setText(findTestObject("Rate/Page_Home/input_View all_searchText"), "vijay")
+
+10
+00:00:32,598 --> 00:00:32,599
+37. click(findTestObject("Rate/Page_Home/Search user button"))
+
+11
+00:00:37,688 --> 00:00:37,688
+41. delay(2)
+
+12
+00:00:39,694 --> 00:00:39,694
+45. click(findTestObject("BDDFolder/ConnectNoRealtionShip/ClickonUser"))
+
+13
+00:00:40,261 --> 00:00:40,262
+49. delay(5)
+
+14
+00:00:45,267 --> 00:00:45,267
+53. click(findTestObject("Thumbing-Upvote and Downvote/Page_View Profile/span_Agree"))
+
+15
+00:00:45,903 --> 00:00:45,903
+57. delay(2)
+
+16
+00:00:47,907 --> 00:00:47,907
+61. verifyElementClickable(findTestObject("BDDFolder/ConnectNoRealtionShip/EstablishRealtaionOptionConnectioncase"))
+
+17
+00:00:48,207 --> 00:00:48,207
+65. closeBrowser()
+
+18
+00:00:50,236 --> 00:00:50,236
+1. closeBrowser()
+

@@ -1,0 +1,84 @@
+1
+00:00:00,568 --> 00:00:00,569
+1. openBrowser(ProdAppUrl)
+
+2
+00:00:05,896 --> 00:00:05,898
+5. navigateToUrl("https://www.thework.life/")
+
+3
+00:00:28,404 --> 00:00:28,409
+9. setText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:29,145 --> 00:00:29,147
+13. setEncryptedText(findTestObject("Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:29,558 --> 00:00:29,559
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:37,432 --> 00:00:37,433
+21. setText(findTestObject("Object Repository/Endorse skills/Page_Home/input_View all_searchText"), " vijay test")
+
+7
+00:00:38,032 --> 00:00:38,034
+25. delay(3)
+
+8
+00:00:41,038 --> 00:00:41,039
+29. click(findTestObject("Object Repository/Endorse skills/Page_Search/div_Vijay Test"))
+
+9
+00:00:50,405 --> 00:00:50,406
+33. click(findTestObject("Endorse skills/Page_Search/search vijay test"))
+
+10
+00:00:51,094 --> 00:00:51,095
+37. delay(5)
+
+11
+00:00:56,099 --> 00:00:56,100
+41. click(findTestObject("Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills"))
+
+12
+00:00:59,010 --> 00:00:59,012
+45. delay(5)
+
+13
+00:00:59,018 --> 00:00:59,020
+49. waitForElementClickable(findTestObject("Endorse skills/click on endorse skill"), 5)
+
+14
+00:00:59,024 --> 00:00:59,025
+53. click(findTestObject("Endorse skills/click on endorse skill"))
+
+15
+00:00:59,029 --> 00:00:59,031
+57. delay(5)
+
+16
+00:01:04,039 --> 00:01:04,041
+61. click(findTestObject("Endorse skills/Page_View Profile/button_Endorse"))
+
+17
+00:01:04,590 --> 00:01:04,591
+65. waitForElementClickable(findTestObject("Endorse skills/Page_View Profile/a_OK"), 5)
+
+18
+00:01:05,597 --> 00:01:05,598
+69. delay(5)
+
+19
+00:01:10,602 --> 00:01:10,603
+73. click(findTestObject("Object Repository/Endorse skills/Page_View Profile/a_OK"))
+
+20
+00:01:11,159 --> 00:01:11,160
+77. closeBrowser()
+
+21
+00:01:12,950 --> 00:01:12,952
+1. closeBrowser()
+

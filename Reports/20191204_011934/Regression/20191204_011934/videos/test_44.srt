@@ -1,0 +1,40 @@
+1
+00:00:00,436 --> 00:00:00,437
+1. openBrowser(AppUrl)
+
+2
+00:00:14,241 --> 00:00:14,241
+5. navigateToUrl(AppUrl)
+
+3
+00:00:16,441 --> 00:00:16,442
+9. setText(findTestObject("Object Repository/FollowerVerification/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:16,985 --> 00:00:16,986
+13. setEncryptedText(findTestObject("Object Repository/FollowerVerification/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:17,430 --> 00:00:17,431
+17. click(findTestObject("Object Repository/FollowerVerification/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:23,151 --> 00:00:23,152
+21. click(findTestObject("Object Repository/FollowerVerification/Page_Home/a_connections"))
+
+7
+00:00:30,744 --> 00:00:30,744
+25. click(findTestObject("FollowerVerification/Page_Connections/a_follower"))
+
+8
+00:00:32,188 --> 00:00:32,188
+29. delay(5)
+
+9
+00:00:37,191 --> 00:00:37,193
+33. verifyElementVisible(findTestObject("FollowerVerification/Page_Connections/div_FollowerCheck"), STOP_ON_FAILURE)
+
+10
+00:01:22,756 --> 00:01:22,756
+1. closeBrowser()
+

@@ -14,9 +14,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl('https://www.thework.life/')
 
 WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10001@gmail.com')
@@ -32,7 +32,7 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('connect with user/Page_Home/a_connections'))
 
-WebUI.setText(findTestObject('Rate/Page_Home/input_View all_searchText'), 'vijay')
+WebUI.setText(findTestObject('Rate/Page_Home/input_View all_searchText'), 'vijay test')
 
 WebUI.click(findTestObject('Rate/Page_Home/Search user button'))
 

@@ -4,7 +4,17 @@
    <name>textarea_suraj kumar_txtUserPost</name>
    <tag></tag>
    <elementGuidId>3f602008-e11a-4d6d-9c4d-5206de97be67</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'txtUserPost' and @placeholder = 'Hello suraj kumar , Share an idea,post or thought....']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='txtUserPost']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

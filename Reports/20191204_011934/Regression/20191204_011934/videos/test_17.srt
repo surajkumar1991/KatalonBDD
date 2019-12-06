@@ -1,0 +1,72 @@
+1
+00:00:00,865 --> 00:00:00,865
+1. openBrowser("")
+
+2
+00:00:10,298 --> 00:00:10,299
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:18,310 --> 00:00:18,311
+9. setText(findTestObject("Object Repository/notifications/notification/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:19,249 --> 00:00:19,250
+13. setEncryptedText(findTestObject("Object Repository/notifications/notification/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:19,927 --> 00:00:19,928
+17. click(findTestObject("Object Repository/notifications/notification/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:25,886 --> 00:00:25,887
+21. delay(4)
+
+7
+00:00:29,893 --> 00:00:29,900
+25. click(findTestObject("notifications/Page_Home/i_No connection requests available_fa fa-bell"))
+
+8
+00:00:30,721 --> 00:00:30,722
+29. mouseOver(findTestObject("notifications/notification/Page_Home/a_View all"))
+
+9
+00:00:32,069 --> 00:00:32,070
+33. click(findTestObject("notifications/Page_Home/a_View all"))
+
+10
+00:00:37,832 --> 00:00:37,833
+37. delay(10)
+
+11
+00:00:47,843 --> 00:00:47,845
+41. click(findTestObject("Object Repository/notifications/notification/Page_NotificationDetails/button_View more"))
+
+12
+00:00:48,653 --> 00:00:48,654
+45. delay(10)
+
+13
+00:00:58,665 --> 00:00:58,667
+49. verifyTextPresent("You have earned a badge", true)
+
+14
+00:01:04,283 --> 00:01:04,283
+53. verifyTextPresent("You are now verified user", true)
+
+15
+00:01:09,576 --> 00:01:09,576
+57. verifyTextPresent("posted a review for", true)
+
+16
+00:01:15,212 --> 00:01:15,212
+61. verifyTextPresent("started following You", true)
+
+17
+00:01:19,351 --> 00:01:19,352
+65. closeBrowser()
+
+18
+00:01:21,179 --> 00:01:21,179
+1. closeBrowser()
+

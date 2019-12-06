@@ -1,0 +1,76 @@
+1
+00:00:00,703 --> 00:00:00,703
+1. openBrowser(AppUrl)
+
+2
+00:00:13,011 --> 00:00:13,012
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,395 --> 00:00:15,395
+9. setText(findTestObject("Object Repository/RecommandationCheck/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:15,959 --> 00:00:15,960
+13. setEncryptedText(findTestObject("Object Repository/RecommandationCheck/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:16,507 --> 00:00:16,507
+17. click(findTestObject("Object Repository/RecommandationCheck/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,201 --> 00:00:22,202
+21. click(findTestObject("Object Repository/RecommandationCheck/Page_Home/a_profile"))
+
+7
+00:00:23,999 --> 00:00:23,999
+25. click(findTestObject("Object Repository/RecommandationCheck/Page_Home/a_Edit Profile"))
+
+8
+00:00:31,451 --> 00:00:31,451
+29. click(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Recommendations"))
+
+9
+00:00:32,137 --> 00:00:32,138
+33. waitForElementVisible(findTestObject("RecommandationCheck/Page_Edit Profile/a_Submitted (1)"), 5)
+
+10
+00:00:33,299 --> 00:00:33,300
+37. click(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Submitted (1)"))
+
+11
+00:00:33,846 --> 00:00:33,847
+41. delay(5)
+
+12
+00:00:38,850 --> 00:00:38,850
+45. waitForElementVisible(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Suraj1571562559339makhija"), 10)
+
+13
+00:00:39,171 --> 00:00:39,171
+49. verifyElementVisible(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Suraj1571562559339makhija"), STOP_ON_FAILURE)
+
+14
+00:00:39,483 --> 00:00:39,484
+53. click(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Received (2)"))
+
+15
+00:00:40,358 --> 00:00:40,358
+57. delay(5)
+
+16
+00:00:45,364 --> 00:00:45,364
+61. waitForElementVisible(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Yamanappa Ogennavar"), 10)
+
+17
+00:00:45,677 --> 00:00:45,677
+65. verifyElementVisible(findTestObject("Object Repository/RecommandationCheck/Page_Edit Profile/a_Yamanappa Ogennavar"), STOP_ON_FAILURE)
+
+18
+00:00:45,991 --> 00:00:45,991
+69. closeBrowser()
+
+19
+00:00:47,975 --> 00:00:47,975
+1. closeBrowser()
+

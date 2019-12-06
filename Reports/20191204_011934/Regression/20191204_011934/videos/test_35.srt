@@ -1,0 +1,40 @@
+1
+00:00:00,549 --> 00:00:00,551
+1. openBrowser(AppUrl)
+
+2
+00:00:12,778 --> 00:00:12,779
+5. navigateToUrl(AppUrl)
+
+3
+00:00:15,253 --> 00:00:15,253
+9. setText(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10004@gmail.com")
+
+4
+00:00:15,839 --> 00:00:15,840
+13. setEncryptedText(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:16,238 --> 00:00:16,239
+17. click(findTestObject("Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,702 --> 00:00:22,702
+21. click(findTestObject("Object Repository/SkillPageObject/Page_Home/a_profile"))
+
+7
+00:00:23,407 --> 00:00:23,409
+25. click(findTestObject("Object Repository/SkillPageObject/Page_Home/a_Edit Profile"))
+
+8
+00:00:28,677 --> 00:00:28,678
+29. click(findTestObject("BDDFolder/Change Pic/change Pic Button"))
+
+9
+00:00:59,697 --> 00:00:59,697
+33. verifyElementClickable(findTestObject("BDDFolder/Change Pic/BrowseButton"))
+
+10
+00:01:00,082 --> 00:01:00,082
+1. closeBrowser()
+

@@ -1,0 +1,60 @@
+1
+00:00:00,497 --> 00:00:00,498
+1. openBrowser("")
+
+2
+00:00:07,705 --> 00:00:07,707
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:15,449 --> 00:00:15,450
+9. setText(findTestObject("Object Repository/Review card/Page_theworklife - Find Great People To Work With/input_Forgot password_username (1)"), "worklifetest10001@gmail.com")
+
+4
+00:00:16,190 --> 00:00:16,190
+13. setEncryptedText(findTestObject("Object Repository/Review card/Page_theworklife - Find Great People To Work With/input_Forgot password_password (1)"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:16,783 --> 00:00:16,784
+17. click(findTestObject("Object Repository/Review card/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,705 --> 00:00:22,707
+21. click(findTestObject("Object Repository/Review card/Page_Home/a_connections"))
+
+7
+00:00:30,915 --> 00:00:30,917
+25. click(findTestObject("Object Repository/Review card/Page_Connections/div_Yamanappa Ogennavar"))
+
+8
+00:00:36,892 --> 00:00:36,892
+29. verifyTextPresent("Anonymous", true)
+
+9
+00:00:38,816 --> 00:00:38,817
+33. verifyTextPresent("Worked together at", true)
+
+10
+00:00:40,538 --> 00:00:40,539
+37. verifyTextPresent("Read more", true)
+
+11
+00:00:43,434 --> 00:00:43,435
+41. verifyTextPresent("Share", true)
+
+12
+00:00:45,879 --> 00:00:45,881
+45. verifyElementClickable(findTestObject("Object Repository/Review card/Page_View Profile/i_Read more_fa fa-thumbs-o-up"))
+
+13
+00:00:46,483 --> 00:00:46,484
+49. verifyElementClickable(findTestObject("Object Repository/Review card/Page_View Profile/i_Read more_fa fa-thumbs-o-down"))
+
+14
+00:00:47,018 --> 00:00:47,020
+53. closeBrowser()
+
+15
+00:00:49,647 --> 00:00:49,647
+1. closeBrowser()
+

@@ -14,15 +14,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl('https://www.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
-    'surajkumarsrivastava1991')
+    'vijayvstest01@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'nzEsFCGA/BtMPXLkTTMM4w==')
+    'cvW8qx4B2o3F4VwP/kNsqA==')
 
 WebUI.click(findTestObject('Object Repository/Post case/Page_theworklife - Find Great People To Work With/button_Sign in'))
 

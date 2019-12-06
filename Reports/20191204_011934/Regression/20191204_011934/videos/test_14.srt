@@ -1,0 +1,48 @@
+1
+00:00:00,582 --> 00:00:00,585
+1. openBrowser("")
+
+2
+00:00:07,271 --> 00:00:07,271
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:17,316 --> 00:00:17,317
+9. click(findTestObject("Object Repository/Incorrect SMN FB/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:18,119 --> 00:00:18,121
+13. click(findTestObject("Object Repository/Incorrect SMN FB/Page_theworklife - Find Great People To Work With/button_Facebook"))
+
+5
+00:00:19,343 --> 00:00:19,343
+17. switchToWindowTitle("Facebook")
+
+6
+00:00:19,754 --> 00:00:19,755
+21. setText(findTestObject("Object Repository/Incorrect SMN FB/Page_Facebook/input_Email address or phone number_email"), "an@ksfks.com")
+
+7
+00:00:22,143 --> 00:00:22,144
+25. setEncryptedText(findTestObject("Object Repository/Incorrect SMN FB/Page_Facebook/input_Password_pass"), "FIyHSpwHMz/RrAsWal25wQ==")
+
+8
+00:00:22,669 --> 00:00:22,670
+29. click(findTestObject("Object Repository/Incorrect SMN FB/Page_Facebook/input_Password_login"))
+
+9
+00:00:28,570 --> 00:00:28,572
+33. click(findTestObject("Object Repository/Incorrect SMN FB/Page_Facebook/div_Incorrect email addressThe email address that youve entered doesnt match any account Sign up for an account"))
+
+10
+00:00:48,456 --> 00:00:48,458
+37. verifyTextPresent("Incorrect email address", false)
+
+11
+00:00:48,878 --> 00:00:48,879
+41. closeBrowser()
+
+12
+00:00:51,374 --> 00:00:51,374
+1. closeBrowser()
+

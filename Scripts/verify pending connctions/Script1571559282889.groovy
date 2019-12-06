@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl(GlobalVariable.ProdAppUrl)
 
 WebUI.setText(findTestObject('Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')

@@ -1,0 +1,88 @@
+1
+00:00:00,884 --> 00:00:00,886
+1. openBrowser(AppUrl)
+
+2
+00:00:17,137 --> 00:00:17,138
+5. navigateToUrl(AppUrl)
+
+3
+00:00:19,921 --> 00:00:19,923
+9. setText(findTestObject("Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:20,585 --> 00:00:20,588
+13. setEncryptedText(findTestObject("Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:21,137 --> 00:00:21,138
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:26,863 --> 00:00:26,868
+21. click(findTestObject("flag review/Click profile"))
+
+7
+00:00:53,321 --> 00:00:53,326
+25. click(findTestObject("flag review/click myprofile"))
+
+8
+00:00:58,398 --> 00:00:58,399
+29. waitForElementClickable(findTestObject("flag review/Page_View Profile/span_Report"), 3)
+
+9
+00:00:59,029 --> 00:00:59,030
+33. delay(3)
+
+10
+00:01:02,040 --> 00:01:02,040
+37. click(findTestObject("flag review/Page_View Profile/click btn-btn report"))
+
+11
+00:01:02,906 --> 00:01:02,908
+41. waitForElementPresent(findTestObject("flag review/Page_theworklife - Find Great People To Work With/Report New window"), 3)
+
+12
+00:01:04,161 --> 00:01:04,162
+45. waitForElementClickable(findTestObject("flag review/Page_View Profile/label_Accusatory"), 3)
+
+13
+00:01:04,618 --> 00:01:04,619
+49. delay(3)
+
+14
+00:01:07,644 --> 00:01:07,646
+53. click(findTestObject("Object Repository/flag review/Page_View Profile/label_Accusatory"))
+
+15
+00:01:08,809 --> 00:01:08,811
+57. delay(3)
+
+16
+00:01:11,823 --> 00:01:11,826
+61. setText(findTestObject("Object Repository/flag review/Page_View Profile/textarea_Detail your complaint_txtDetailReport"), "i dont like it , i am testing flag reviews")
+
+17
+00:01:12,536 --> 00:01:12,538
+65. click(findTestObject("Object Repository/flag review/Page_View Profile/button_Submit"))
+
+18
+00:01:13,385 --> 00:01:13,388
+69. waitForElementClickable(findTestObject("flag review/Page_View Profile/a_OK"), 3)
+
+19
+00:01:14,309 --> 00:01:14,309
+73. delay(3)
+
+20
+00:01:17,318 --> 00:01:17,318
+77. click(findTestObject("Object Repository/flag review/Page_View Profile/a_OK"))
+
+21
+00:01:18,177 --> 00:01:18,178
+81. closeBrowser()
+
+22
+00:01:20,023 --> 00:01:20,023
+1. closeBrowser()
+

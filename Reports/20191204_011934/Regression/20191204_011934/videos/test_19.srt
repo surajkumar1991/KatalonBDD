@@ -1,0 +1,156 @@
+1
+00:00:00,777 --> 00:00:00,778
+1. openBrowser("")
+
+2
+00:00:13,804 --> 00:00:13,805
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:20,914 --> 00:00:20,915
+9. setText(findTestObject("Object Repository/share profile SMN email/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:21,594 --> 00:00:21,595
+13. setEncryptedText(findTestObject("Object Repository/Page_theworklife - Find Great People To Work With/input_Password does not match_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:22,143 --> 00:00:22,144
+17. click(findTestObject("Object Repository/share profile SMN email/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:29,156 --> 00:00:29,157
+21. delay(3)
+
+7
+00:00:32,161 --> 00:00:32,162
+25. click(findTestObject("Object Repository/Page_Home/click 3 dots to share"))
+
+8
+00:00:32,737 --> 00:00:32,738
+29. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+9
+00:00:33,307 --> 00:00:33,308
+33. delay(3)
+
+10
+00:00:36,313 --> 00:00:36,314
+37. click(findTestObject("Object Repository/Page_Home/i__fa fa-facebook"))
+
+11
+00:00:37,075 --> 00:00:37,076
+41. click(findTestObject("Object Repository/Page_Home/img"))
+
+12
+00:00:37,646 --> 00:00:37,647
+45. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+13
+00:00:38,535 --> 00:00:38,536
+49. delay(3)
+
+14
+00:00:41,541 --> 00:00:41,541
+53. click(findTestObject("Object Repository/Page_Home/i__fa fa-linkedin"))
+
+15
+00:00:42,323 --> 00:00:42,324
+57. click(findTestObject("Object Repository/Page_Home/img"))
+
+16
+00:00:43,275 --> 00:00:43,276
+61. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+17
+00:00:44,265 --> 00:00:44,266
+65. delay(3)
+
+18
+00:00:47,272 --> 00:00:47,274
+69. click(findTestObject("Object Repository/Page_Home/i__fa fa-twitter"))
+
+19
+00:00:48,254 --> 00:00:48,256
+73. click(findTestObject("Object Repository/Page_Home/img"))
+
+20
+00:00:48,840 --> 00:00:48,840
+77. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+21
+00:00:49,457 --> 00:00:49,459
+81. delay(3)
+
+22
+00:00:52,463 --> 00:00:52,464
+85. click(findTestObject("Object Repository/Page_Home/i__fa fa-whatsapp my-float"))
+
+23
+00:00:53,217 --> 00:00:53,218
+89. click(findTestObject("Object Repository/Page_Home/img"))
+
+24
+00:00:53,782 --> 00:00:53,783
+93. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+25
+00:00:54,690 --> 00:00:54,691
+97. delay(3)
+
+26
+00:00:57,698 --> 00:00:57,700
+101. click(findTestObject("Object Repository/Page_Home/i__fa fa-envelope"))
+
+27
+00:00:58,238 --> 00:00:58,239
+105. click(findTestObject("Object Repository/Page_Home/div_Copy share link_multiple_emails-container"))
+
+28
+00:00:58,990 --> 00:00:58,991
+109. click(findTestObject("Object Repository/Page_Home/button_Cancel"))
+
+29
+00:00:59,525 --> 00:00:59,526
+113. click(findTestObject("Page_Home/click 3 dots to share"))
+
+30
+00:01:00,384 --> 00:01:00,384
+117. click(findTestObject("Object Repository/Page_Home/li_Share Profile"))
+
+31
+00:01:00,927 --> 00:01:00,928
+121. delay(3)
+
+32
+00:01:03,930 --> 00:01:03,931
+125. click(findTestObject("Object Repository/Page_Home/i__fa fa-envelope"))
+
+33
+00:01:04,463 --> 00:01:04,464
+129. delay(2)
+
+34
+00:01:06,468 --> 00:01:06,469
+133. click(findTestObject("Object Repository/share profile SMN email/Page_Home/div_Copy share link_multiple_emails-container"))
+
+35
+00:01:06,978 --> 00:01:06,979
+137. setText(findTestObject("Object Repository/share profile SMN email/Page_Home/input_Copy share link_multiple_emails-input text-left"), "suraj.kumar@vuclip.com")
+
+36
+00:01:07,332 --> 00:01:07,334
+141. click(findTestObject("Object Repository/share profile SMN email/Page_Home/button_Share (1)"))
+
+37
+00:01:07,918 --> 00:01:07,918
+145. click(findTestObject("Object Repository/share profile SMN email/Page_Home/a_OK (1)"))
+
+38
+00:01:09,158 --> 00:01:09,159
+149. closeBrowser()
+
+39
+00:01:11,577 --> 00:01:11,578
+1. closeBrowser()
+

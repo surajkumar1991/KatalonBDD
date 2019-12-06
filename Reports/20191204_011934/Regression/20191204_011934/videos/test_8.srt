@@ -1,0 +1,168 @@
+1
+00:00:00,442 --> 00:00:00,442
+1. openBrowser("")
+
+2
+00:00:07,558 --> 00:00:07,560
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:15,733 --> 00:00:15,734
+9. currentPassword = "Test@123"
+
+4
+00:00:15,738 --> 00:00:15,739
+13. newPassword = "Test@1234"
+
+5
+00:00:15,740 --> 00:00:15,742
+17. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+6
+00:00:16,421 --> 00:00:16,423
+21. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), currentPassword)
+
+7
+00:00:17,090 --> 00:00:17,091
+25. click(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+8
+00:00:28,896 --> 00:00:28,897
+29. delay(3)
+
+9
+00:00:31,903 --> 00:00:31,907
+33. click(findTestObject("change settings/Page_Home/i_Settings_fa fa-gear"))
+
+10
+00:00:32,739 --> 00:00:32,742
+37. click(findTestObject("change setttings/Page_Home/a_Settings"))
+
+11
+00:00:36,043 --> 00:00:36,044
+41. delay(4)
+
+12
+00:00:36,046 --> 00:00:36,046
+45. click(findTestObject("Object Repository/change settings/Page_Settings/a_Primary Email Address_fa fa-pencil m-t-40"))
+
+13
+00:00:36,046 --> 00:00:36,050
+49. click(findTestObject("change settings/Page_Settings/edit email button"))
+
+14
+00:00:36,054 --> 00:00:36,055
+53. delay(4)
+
+15
+00:00:36,057 --> 00:00:36,059
+57. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_Current password_oldPassword"), currentPassword)
+
+16
+00:00:36,061 --> 00:00:36,062
+61. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_New email_email"), "skfjksfvskf")
+
+17
+00:00:36,064 --> 00:00:36,065
+65. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_Confirm new email_confirm_email"), "fgjkfkgf")
+
+18
+00:00:36,068 --> 00:00:36,069
+69. click(findTestObject("change settings/Page_Home/i_Settings_fa fa-gear"))
+
+19
+00:00:36,072 --> 00:00:36,073
+73. click(findTestObject("change setttings/Page_Home/a_Settings"))
+
+20
+00:00:36,076 --> 00:00:36,077
+77. delay(3)
+
+21
+00:00:39,084 --> 00:00:39,085
+81. setText(findTestObject("Object Repository/change settings/Page_Settings/input_Current password_oldPassword"), currentPassword)
+
+22
+00:00:39,681 --> 00:00:39,682
+85. setText(findTestObject("Object Repository/change settings/Page_Settings/input_New password_password"), newPassword)
+
+23
+00:00:40,395 --> 00:00:40,397
+89. setText(findTestObject("Object Repository/change settings/Page_Settings/input_Retype new password_confirm_password"), newPassword)
+
+24
+00:00:41,265 --> 00:00:41,266
+93. click(findTestObject("Object Repository/change settings/Page_Settings/button_Reset"))
+
+25
+00:00:41,268 --> 00:00:41,268
+97. click(findTestObject("change settings/Page_Settings/button_Save"))
+
+26
+00:00:41,975 --> 00:00:41,976
+101. click(findTestObject("change settings/Page_Settings/a_OK"))
+
+27
+00:00:43,038 --> 00:00:43,039
+105. delay(2)
+
+28
+00:00:45,044 --> 00:00:45,044
+109. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+29
+00:00:46,786 --> 00:00:46,787
+113. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), newPassword)
+
+30
+00:00:47,555 --> 00:00:47,557
+117. click(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+31
+00:00:53,346 --> 00:00:53,346
+121. delay(2)
+
+32
+00:00:55,350 --> 00:00:55,351
+125. click(findTestObject("change settings/Page_Home/i_Settings_fa fa-gear"))
+
+33
+00:00:56,002 --> 00:00:56,002
+129. click(findTestObject("change setttings/Page_Home/a_Settings"))
+
+34
+00:00:59,940 --> 00:00:59,941
+133. delay(3)
+
+35
+00:01:02,946 --> 00:01:02,948
+137. setText(findTestObject("Object Repository/change settings/Page_Settings/input_Current password_oldPassword"), newPassword)
+
+36
+00:01:03,461 --> 00:01:03,462
+141. setText(findTestObject("Object Repository/change settings/Page_Settings/input_New password_password"), currentPassword)
+
+37
+00:01:04,045 --> 00:01:04,047
+145. setText(findTestObject("Object Repository/change settings/Page_Settings/input_Retype new password_confirm_password"), currentPassword)
+
+38
+00:01:05,083 --> 00:01:05,084
+149. click(findTestObject("change settings/Page_Settings/button_Save"))
+
+39
+00:01:05,946 --> 00:01:05,947
+153. click(findTestObject("change settings/Page_Settings/a_OK"))
+
+40
+00:01:05,951 --> 00:01:05,952
+157. delay(2)
+
+41
+00:01:07,961 --> 00:01:07,962
+161. closeBrowser()
+
+42
+00:01:09,674 --> 00:01:09,674
+1. closeBrowser()
+

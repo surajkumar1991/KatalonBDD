@@ -1,0 +1,36 @@
+1
+00:00:00,330 --> 00:00:00,331
+1. openBrowser(ProdAppUrl)
+
+2
+00:00:04,529 --> 00:00:04,530
+5. navigateToUrl("https://www.thework.life/")
+
+3
+00:00:09,897 --> 00:00:09,898
+9. setText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_username"), "jsgifuwidw@gmail.com")
+
+4
+00:00:10,450 --> 00:00:10,452
+13. setEncryptedText(findTestObject("Object Repository/Page_theworklife/input_Forgot password_password"), "I24EpPs9VQ1LZoTHit0ojg==")
+
+5
+00:00:10,913 --> 00:00:10,914
+17. click(findTestObject("Object Repository/Page_theworklife/button_Sign in"))
+
+6
+00:00:13,587 --> 00:00:13,588
+21. click(findTestObject("Object Repository/Page_theworklife/span_Username or Email ID does not exist"))
+
+7
+00:00:14,231 --> 00:00:14,232
+25. verifyElementText(findTestObject("Page_theworklife/span_Username or Email ID does not exist"), "Username or Email ID does not exist!")
+
+8
+00:00:14,882 --> 00:00:14,883
+29. closeBrowser()
+
+9
+00:00:16,340 --> 00:00:16,340
+1. closeBrowser()
+

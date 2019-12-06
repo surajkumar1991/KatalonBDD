@@ -11,18 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4c0b8839-0be3-4cd5-b257-f4922442ba14</testSuiteGuid>
    <testCaseLink>
-      <guid>10f59687-1253-4a30-ac6f-88f41da4e052</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login success</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9a1e522-9d71-43c5-9b6b-df8447f602af</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/claim profile</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c877ea43-8704-44d7-bec0-949ef3db5b72</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -57,12 +45,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Endorse skills</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5347ffcf-d186-4785-bafe-a3e66ed7e2e8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/New regression cases/Activity feed</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5c0a1ca0-b69d-409d-a352-67f6a37a86d0</guid>
@@ -321,12 +303,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/workLifeTest/ProfileCreationPersonalDetails</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>356ec8a0-0669-42e6-827e-a4f19bd17f45</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/ProfileDeletion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5d4883bd-57ad-4100-8393-41a994d5ca48</guid>

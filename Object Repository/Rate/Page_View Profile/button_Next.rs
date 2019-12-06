@@ -4,7 +4,17 @@
    <name>button_Next</name>
    <tag></tag>
    <elementGuidId>e1cac4da-24b3-4457-8ff7-e0909c14351b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'btnSubmitReview' and (text() = 'Next' or . = 'Next')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnSubmitReview']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //  Create A profile 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl(GlobalVariable.ProdAppUrl)
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/a_Join Now'))
 
@@ -109,9 +109,9 @@ WebUI.click(findTestObject('VerifyUserObjects/VerificationPage_Submit'))
 WebUI.closeBrowser()
 
 // Delete Profile 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl(GlobalVariable.ProdAppUrl)
 
 WebUI.setText(findTestObject('Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10002@gmail.com')
@@ -143,9 +143,9 @@ WebUI.click(findTestObject('Object Repository/DeletionObject/Page_Settings/a_OK'
 WebUI.closeBrowser()
 
 // Re Create - and Acquire 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl(GlobalVariable.ProdAppUrl)
 
 WebUI.click(findTestObject('Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/a_Join Now'))
 

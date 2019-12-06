@@ -54,6 +54,11 @@ public class GlobalVariable {
      */
     public static Object AppUrl
      
+    /**
+     * <p></p>
+     */
+    public static Object ProdAppUrl
+     
 
     static {
         try {
@@ -70,6 +75,7 @@ public class GlobalVariable {
             authorization = selectedVariables['authorization']
             latest_response = selectedVariables['latest_response']
             AppUrl = selectedVariables['AppUrl']
+            ProdAppUrl = selectedVariables['ProdAppUrl']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

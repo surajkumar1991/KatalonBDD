@@ -1,0 +1,44 @@
+1
+00:00:00,592 --> 00:00:00,596
+1. openBrowser("")
+
+2
+00:00:07,329 --> 00:00:07,329
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:15,542 --> 00:00:15,543
+9. click(findTestObject("Object Repository/Email not exits/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:16,482 --> 00:00:16,484
+13. click(findTestObject("Object Repository/Email not exits/Page_theworklife - Find Great People To Work With/button_LinkedIn"))
+
+5
+00:00:18,957 --> 00:00:18,959
+17. setText(findTestObject("Object Repository/Email not exits/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key"), "anv@gg.com")
+
+6
+00:00:20,687 --> 00:00:20,689
+21. setEncryptedText(findTestObject("Object Repository/Email not exits/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_password"), "K4zDD8mQMecHsKIJtkax7A==")
+
+7
+00:00:21,202 --> 00:00:21,203
+25. click(findTestObject("Object Repository/Email not exits/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in"))
+
+8
+00:00:23,640 --> 00:00:23,640
+29. click(findTestObject("Object Repository/Email not exits/Page_LinkedIn Login LinkedIn Sign in  LinkedIn/div_We dont recognize that emailDid you mean gecom"))
+
+9
+00:00:25,075 --> 00:00:25,077
+33. verifyTextPresent("We don't recognize that email.", false)
+
+10
+00:00:25,702 --> 00:00:25,702
+37. closeBrowser()
+
+11
+00:00:28,047 --> 00:00:28,048
+1. closeBrowser()
+

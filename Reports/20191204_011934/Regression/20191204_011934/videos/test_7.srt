@@ -1,0 +1,88 @@
+1
+00:00:00,599 --> 00:00:00,600
+1. openBrowser("")
+
+2
+00:00:07,377 --> 00:00:07,378
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:15,651 --> 00:00:15,656
+9. currentPassword = "Test@123"
+
+4
+00:00:15,664 --> 00:00:15,666
+13. curentEmail = "newsuraj10001@gmail.com"
+
+5
+00:00:15,668 --> 00:00:15,670
+17. NewEmail = "suraj.kumar@vuclip.com"
+
+6
+00:00:15,675 --> 00:00:15,676
+21. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+7
+00:00:16,387 --> 00:00:16,388
+25. setText(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), currentPassword)
+
+8
+00:00:17,074 --> 00:00:17,075
+29. click(findTestObject("change setttings/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+9
+00:00:24,742 --> 00:00:24,744
+33. delay(3)
+
+10
+00:00:27,749 --> 00:00:27,752
+37. click(findTestObject("change settings/Page_Home/i_Settings_fa fa-gear"))
+
+11
+00:00:28,518 --> 00:00:28,519
+41. click(findTestObject("change setttings/Page_Home/a_Settings"))
+
+12
+00:00:31,747 --> 00:00:31,749
+45. delay(4)
+
+13
+00:00:35,754 --> 00:00:35,756
+49. click(findTestObject("Object Repository/change settings/Page_Settings/a_Primary Email Address_fa fa-pencil m-t-40"))
+
+14
+00:00:36,680 --> 00:00:36,681
+53. click(findTestObject("change settings/Page_Settings/edit email button"))
+
+15
+00:00:40,116 --> 00:00:40,116
+57. delay(4)
+
+16
+00:00:44,126 --> 00:00:44,126
+61. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_Current password_oldPassword"), currentPassword)
+
+17
+00:00:44,742 --> 00:00:44,744
+65. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_New email_email"), NewEmail)
+
+18
+00:00:45,398 --> 00:00:45,399
+69. setText(findTestObject("Object Repository/change settings/Page_Change Primary Email/input_Confirm new email_confirm_email"), NewEmail)
+
+19
+00:00:46,406 --> 00:00:46,407
+73. click(findTestObject("change settings/save and verify email"))
+
+20
+00:00:46,410 --> 00:00:46,410
+77. delay(2)
+
+21
+00:00:48,421 --> 00:00:48,422
+81. closeBrowser()
+
+22
+00:00:50,979 --> 00:00:50,980
+1. closeBrowser()
+

@@ -1,0 +1,60 @@
+1
+00:00:00,846 --> 00:00:00,848
+1. openBrowser(AppUrl)
+
+2
+00:00:15,856 --> 00:00:15,857
+5. navigateToUrl(AppUrl)
+
+3
+00:00:18,157 --> 00:00:18,158
+9. setText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10004@gmail.com")
+
+4
+00:00:18,720 --> 00:00:18,721
+13. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "x8UobeF0bbxd7GrPsdhkIlsTrhBxwBw1")
+
+5
+00:00:19,163 --> 00:00:19,165
+17. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,247 --> 00:00:22,247
+21. setEncryptedText(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Password does not match_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+7
+00:00:22,813 --> 00:00:22,814
+25. click(findTestObject("Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+8
+00:00:29,668 --> 00:00:29,669
+29. setText(findTestObject("Object Repository/Rate/Page_Home/input_View all_searchText"), "vijay")
+
+9
+00:00:30,166 --> 00:00:30,167
+33. click(findTestObject("Search user/Search user button"))
+
+10
+00:00:35,455 --> 00:00:35,455
+37. click(findTestObject("Object Repository/Rate/Page_Search/div_Vijay Test"))
+
+11
+00:00:36,199 --> 00:00:36,200
+41. click(findTestObject("Object Repository/Rate/Page_View Profile/button_Rate Now"))
+
+12
+00:00:41,290 --> 00:00:41,290
+45. delay(5)
+
+13
+00:00:46,294 --> 00:00:46,294
+49. verifyElementClickable(findTestObject("BDDFolder/RateUserUnverified/EstablishRelationOption"))
+
+14
+00:00:46,642 --> 00:00:46,642
+53. closeBrowser()
+
+15
+00:00:48,891 --> 00:00:48,892
+1. closeBrowser()
+

@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl(GlobalVariable.ProdAppUrl)
 
 WebUI.setText(findTestObject('Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10004@gmail.com')

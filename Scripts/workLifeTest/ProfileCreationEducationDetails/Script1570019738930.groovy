@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 String college = 'MyCollege' + System.currentTimeMillis()
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl('https://www.thework.life/')
 
 WebUI.setText(findTestObject('EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'worklifetest10001@gmail.com')

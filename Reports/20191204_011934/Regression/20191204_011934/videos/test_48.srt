@@ -1,0 +1,96 @@
+1
+00:00:00,345 --> 00:00:00,345
+1. DesignationName = "abcd" + System.currentTimeMillis()
+
+2
+00:00:00,347 --> 00:00:00,348
+5. openBrowser(AppUrl)
+
+3
+00:00:13,625 --> 00:00:13,625
+9. navigateToUrl(AppUrl)
+
+4
+00:00:15,954 --> 00:00:15,954
+13. setText(findTestObject("Page_theworklife/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+5
+00:00:16,512 --> 00:00:16,512
+17. setEncryptedText(findTestObject("Page_theworklife/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+6
+00:00:16,933 --> 00:00:16,934
+21. click(findTestObject("Page_theworklife/button_Sign in"))
+
+7
+00:00:23,624 --> 00:00:23,625
+25. navigateToUrl("https://qa.thework.life/Profile/EditProfile")
+
+8
+00:00:28,697 --> 00:00:28,698
+29. click(findTestObject("Page_Edit Profile/a_Experience"))
+
+9
+00:00:29,497 --> 00:00:29,498
+33. waitForElementNotPresent(findTestObject("Experience/Page_Edit Profile/loader"), 10)
+
+10
+00:00:40,289 --> 00:00:40,290
+37. click(findTestObject("Object Repository/Page_Edit Profile/button_ Add Experience"))
+
+11
+00:00:40,869 --> 00:00:40,870
+41. setText(findTestObject("Object Repository/Page_Edit Profile/input_Designation_designation_name"), DesignationName)
+
+12
+00:00:41,399 --> 00:00:41,400
+45. setText(findTestObject("Object Repository/Page_Edit Profile/input_Company_company_name"), "abcd")
+
+13
+00:00:43,643 --> 00:00:43,644
+49. setText(findTestObject("Object Repository/Page_Edit Profile/input_Location_location"), "abcd")
+
+14
+00:00:44,523 --> 00:00:44,524
+53. setText(findTestObject("Object Repository/Page_Edit Profile/textarea_(Optional)_description"), "abcd")
+
+15
+00:00:45,138 --> 00:00:45,138
+57. selectOptionByValue(findTestObject("Object Repository/Page_Edit Profile/select_Month"), "1", true)
+
+16
+00:00:46,495 --> 00:00:46,496
+61. selectOptionByValue(findTestObject("Object Repository/Page_Edit Profile/select_Year"), "2000", true)
+
+17
+00:00:49,109 --> 00:00:49,109
+65. click(findTestObject("Object Repository/Page_Edit Profile/i_I currently work here_cr-icon fa fa-check"))
+
+18
+00:00:49,676 --> 00:00:49,677
+69. click(findTestObject("Object Repository/Page_Edit Profile/span_Work-life balance_star5"))
+
+19
+00:00:50,270 --> 00:00:50,271
+73. click(findTestObject("Object Repository/Page_Edit Profile/span_Equal opportunities_star5"))
+
+20
+00:00:50,928 --> 00:00:50,929
+77. click(findTestObject("Object Repository/Page_Edit Profile/span_Transparency_star5"))
+
+21
+00:00:51,468 --> 00:00:51,469
+81. click(findTestObject("Object Repository/Page_Edit Profile/button_Save"))
+
+22
+00:00:52,055 --> 00:00:52,056
+85. verifyElementText(findTestObject("Page_Edit Profile/h1_abcd", ["text":DesignationName]), DesignationName)
+
+23
+00:00:53,855 --> 00:00:53,855
+89. closeBrowser()
+
+24
+00:00:55,709 --> 00:00:55,709
+1. closeBrowser()
+

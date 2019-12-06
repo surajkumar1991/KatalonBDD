@@ -1,0 +1,332 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity prod,Firefox 69.0,,,2019-12-05 01:50:53,2019-12-05 02:16:29,25m - 35.455s,FAILED
+,,,,,,,
+Test Cases/Connect with users,Firefox 69.0,,,2019-12-05 01:50:54,2019-12-05 01:51:45,51.736s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 01:50:54,2019-12-05 01:50:54,0.124s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 01:50:55,2019-12-05 01:51:04,9.038s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 01:51:04,2019-12-05 01:51:09,5.177s,PASSED
+"setText(findTestObject(""Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 01:51:09,2019-12-05 01:51:09,0.607s,PASSED
+"setEncryptedText(findTestObject(""Experience/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 01:51:09,2019-12-05 01:51:10,0.530s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:51:10,2019-12-05 01:51:17,7.185s,PASSED
+"waitForElementPresent(findTestObject(""connect with user/Page_Home/a_connections""), 3)",Firefox 69.0,,,2019-12-05 01:51:17,2019-12-05 01:51:18,0.445s,PASSED
+delay(4),Firefox 69.0,,,2019-12-05 01:51:18,2019-12-05 01:51:22,4.069s,PASSED
+"click(findTestObject(""connect with user/Page_Home/a_connections""))",Firefox 69.0,,,2019-12-05 01:51:22,2019-12-05 01:51:26,4.223s,PASSED
+"setText(findTestObject(""Rate/Page_Home/input_View all_searchText""), ""vijay test"")",Firefox 69.0,,,2019-12-05 01:51:26,2019-12-05 01:51:27,0.759s,PASSED
+"click(findTestObject(""Rate/Page_Home/Search user button""))",Firefox 69.0,,,2019-12-05 01:51:27,2019-12-05 01:51:41,13.861s,PASSED
+"click(findTestObject(""connect with user/Page_Search/button_Connect""))",Firefox 69.0,,,2019-12-05 01:51:41,2019-12-05 01:51:41,0.717s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 01:51:41,2019-12-05 01:51:43,1.838s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 01:51:43,2019-12-05 01:51:43,0.009s,PASSED
+Video,Firefox 69.0,,,2019-12-05 01:51:45,2019-12-05 01:51:45,0.001s,PASSED
+,,,,,,,
+Test Cases/Endorse skills,Firefox 69.0,,,2019-12-05 01:51:45,2019-12-05 01:53:01,1m - 15.201s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 01:51:45,2019-12-05 01:51:45,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 01:51:46,2019-12-05 01:51:51,5.328s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 01:51:51,2019-12-05 01:52:14,22.509s,PASSED
+"setText(findTestObject(""Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 01:52:14,2019-12-05 01:52:14,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Endorse skills/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 01:52:14,2019-12-05 01:52:15,0.412s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:52:15,2019-12-05 01:52:23,7.873s,PASSED
+"setText(findTestObject(""Object Repository/Endorse skills/Page_Home/input_View all_searchText""), "" vijay test"")",Firefox 69.0,,,2019-12-05 01:52:23,2019-12-05 01:52:23,0.601s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 01:52:23,2019-12-05 01:52:26,3.006s,PASSED
+"click(findTestObject(""Object Repository/Endorse skills/Page_Search/div_Vijay Test""))",Firefox 69.0,,,2019-12-05 01:52:26,2019-12-05 01:52:36,9.366s,PASSED
+"click(findTestObject(""Endorse skills/Page_Search/search vijay test""))",Firefox 69.0,,,2019-12-05 01:52:36,2019-12-05 01:52:36,0.689s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 01:52:36,2019-12-05 01:52:41,5.005s,PASSED
+"click(findTestObject(""Object Repository/Endorse skills/Page_View Profile/span_Endorse Skills""))",Firefox 69.0,,,2019-12-05 01:52:41,2019-12-05 01:52:44,2.911s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 01:52:44,2019-12-05 01:52:44,0.006s,NOT_RUN
+"waitForElementClickable(findTestObject(""Endorse skills/click on endorse skill""), 5)",Firefox 69.0,,,2019-12-05 01:52:44,2019-12-05 01:52:44,0.005s,NOT_RUN
+"click(findTestObject(""Endorse skills/click on endorse skill""))",Firefox 69.0,,,2019-12-05 01:52:44,2019-12-05 01:52:44,0.006s,NOT_RUN
+delay(5),Firefox 69.0,,,2019-12-05 01:52:44,2019-12-05 01:52:49,5.009s,PASSED
+"click(findTestObject(""Endorse skills/Page_View Profile/button_Endorse""))",Firefox 69.0,,,2019-12-05 01:52:49,2019-12-05 01:52:50,0.551s,PASSED
+"waitForElementClickable(findTestObject(""Endorse skills/Page_View Profile/a_OK""), 5)",Firefox 69.0,,,2019-12-05 01:52:50,2019-12-05 01:52:51,1.007s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 01:52:51,2019-12-05 01:52:56,5.004s,PASSED
+"click(findTestObject(""Object Repository/Endorse skills/Page_View Profile/a_OK""))",Firefox 69.0,,,2019-12-05 01:52:56,2019-12-05 01:52:56,0.556s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 01:52:56,2019-12-05 01:52:58,1.787s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 01:52:58,2019-12-05 01:52:58,0.027s,PASSED
+Video,Firefox 69.0,,,2019-12-05 01:53:01,2019-12-05 01:53:01,0.001s,PASSED
+,,,,,,,
+Test Cases/Flag reviews,Firefox 69.0,,,2019-12-05 01:53:01,2019-12-05 01:53:43,42.405s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 01:53:01,2019-12-05 01:53:01,0.001s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 01:53:01,2019-12-05 01:53:06,5.291s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 01:53:06,2019-12-05 01:53:12,5.198s,PASSED
+"setText(findTestObject(""Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""vijayvstest01@gmail.com"")",Firefox 69.0,,,2019-12-05 01:53:12,2019-12-05 01:53:12,0.531s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""cvW8qx4B2o3F4VwP/kNsqA=="")",Firefox 69.0,,,2019-12-05 01:53:12,2019-12-05 01:53:13,0.396s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:53:13,2019-12-05 01:53:19,6.763s,PASSED
+"click(findTestObject(""flag review/Click profile""))",Firefox 69.0,,,2019-12-05 01:53:19,2019-12-05 01:53:20,0.651s,PASSED
+"click(findTestObject(""flag review/click myprofile""))",Firefox 69.0,,,2019-12-05 01:53:20,2019-12-05 01:53:24,3.737s,PASSED
+"waitForElementClickable(findTestObject(""flag review/Page_View Profile/click btn-btn report""), 7)",Firefox 69.0,,,2019-12-05 01:53:24,2019-12-05 01:53:24,0.564s,PASSED
+"click(findTestObject(""flag review/Page_View Profile/click btn-btn report""))",Firefox 69.0,,,2019-12-05 01:53:24,2019-12-05 01:53:25,0.569s,PASSED
+"waitForElementPresent(findTestObject(""flag review/Page_theworklife - Find Great People To Work With/Report New window""), 3)",Firefox 69.0,,,2019-12-05 01:53:25,2019-12-05 01:53:26,1.363s,PASSED
+"waitForElementClickable(findTestObject(""flag review/Page_View Profile/label_Accusatory""), 3)",Firefox 69.0,,,2019-12-05 01:53:26,2019-12-05 01:53:27,0.333s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 01:53:27,2019-12-05 01:53:30,3.003s,PASSED
+"click(findTestObject(""Object Repository/flag review/Page_View Profile/label_Accusatory""))",Firefox 69.0,,,2019-12-05 01:53:30,2019-12-05 01:53:30,0.528s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 01:53:30,2019-12-05 01:53:33,3.003s,PASSED
+"setText(findTestObject(""Object Repository/flag review/Page_View Profile/textarea_Detail your complaint_txtDetailReport""), ""i dont like it , i am testing flag reviews"")",Firefox 69.0,,,2019-12-05 01:53:33,2019-12-05 01:53:34,0.807s,PASSED
+"click(findTestObject(""Object Repository/flag review/Page_View Profile/button_Submit""))",Firefox 69.0,,,2019-12-05 01:53:34,2019-12-05 01:53:35,0.720s,PASSED
+"waitForElementClickable(findTestObject(""flag review/Page_View Profile/a_OK""), 3)",Firefox 69.0,,,2019-12-05 01:53:35,2019-12-05 01:53:36,1.082s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 01:53:36,2019-12-05 01:53:39,3.005s,PASSED
+"click(findTestObject(""Object Repository/flag review/Page_View Profile/a_OK""))",Firefox 69.0,,,2019-12-05 01:53:39,2019-12-05 01:53:39,0.507s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 01:53:39,2019-12-05 01:53:41,1.574s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 01:53:41,2019-12-05 01:53:41,0.009s,PASSED
+Video,Firefox 69.0,,,2019-12-05 01:53:43,2019-12-05 01:53:43,0.001s,PASSED
+,,,,,,,
+Test Cases/Post something,Firefox 69.0,,,2019-12-05 01:53:43,2019-12-05 01:54:08,24.878s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 01:53:43,2019-12-05 01:53:43,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 01:53:43,2019-12-05 01:53:47,4.215s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 01:53:47,2019-12-05 01:53:53,5.074s,PASSED
+"setText(findTestObject(""Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""vijayvstest01@gmail.com"")",Firefox 69.0,,,2019-12-05 01:53:53,2019-12-05 01:53:53,0.581s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Post case/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""cvW8qx4B2o3F4VwP/kNsqA=="")",Firefox 69.0,,,2019-12-05 01:53:53,2019-12-05 01:53:54,0.408s,PASSED
+"click(findTestObject(""Object Repository/Post case/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:53:54,2019-12-05 01:53:59,5.750s,PASSED
+"setText(findTestObject(""Object Repository/Post case/Page_Home/textarea_suraj kumar_txtUserPost""), ""Hello my name is uraj"")",Firefox 69.0,,,2019-12-05 01:53:59,2019-12-05 01:54:02,3.166s,PASSED
+"click(findTestObject(""Object Repository/Post case/Page_Home/button_post""))",Firefox 69.0,,,2019-12-05 01:54:02,2019-12-05 01:54:03,0.925s,PASSED
+"verifyElementVisible(findTestObject(""Post case/Page_Home/p_Hello my name is uraj""), STOP_ON_FAILURE)",Firefox 69.0,,,2019-12-05 01:54:03,2019-12-05 01:54:04,0.681s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 01:54:04,2019-12-05 01:54:06,1.612s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 01:54:06,2019-12-05 01:54:06,0.008s,PASSED
+Video,Firefox 69.0,,,2019-12-05 01:54:08,2019-12-05 01:54:08,0.001s,PASSED
+,,,,,,,
+Test Cases/Rate users,Firefox 69.0,,,2019-12-05 01:54:08,2019-12-05 02:00:07,5m - 59.289s,FAILED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 01:54:08,2019-12-05 01:54:08,0.000s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-12-05 01:54:08,2019-12-05 01:54:13,4.704s,PASSED
+"navigateToUrl(""https://www.thework.life"")",Firefox 69.0,,,2019-12-05 01:54:13,2019-12-05 01:54:18,5.205s,PASSED
+"setText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 01:54:18,2019-12-05 01:54:19,0.553s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""x8UobeF0bbxd7GrPsdhkIlsTrhBxwBw1"")",Firefox 69.0,,,2019-12-05 01:54:19,2019-12-05 01:54:19,0.427s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:54:19,2019-12-05 01:54:22,2.713s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Password does not match_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 01:54:22,2019-12-05 01:54:22,0.432s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 01:54:22,2019-12-05 01:54:29,6.737s,PASSED
+"setText(findTestObject(""Object Repository/Rate/Page_Home/input_View all_searchText""), "" vijay test"")",Firefox 69.0,,,2019-12-05 01:54:29,2019-12-05 01:54:30,0.652s,PASSED
+"click(findTestObject(""Search user/Search user button""))",Firefox 69.0,,,2019-12-05 01:54:30,2019-12-05 01:54:41,11.389s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_Search/div_Vijay Test""))",Firefox 69.0,,,2019-12-05 01:54:41,2019-12-05 01:54:42,0.949s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/button_Rate Now""))",Firefox 69.0,,,2019-12-05 01:54:42,2019-12-05 01:54:53,11.284s,PASSED
+"waitForElementClickable(findTestObject(""Rate/Page_View Profile/span_Desire to work with again_star3""), 3)",Firefox 69.0,,,2019-12-05 01:54:53,2019-12-05 01:54:55,1.673s,PASSED
+sleep(10000),Firefox 69.0,,,2019-12-05 01:54:55,2019-12-05 01:54:55,0.003s,NOT_RUN
+delay(5),Firefox 69.0,,,2019-12-05 01:54:55,2019-12-05 01:55:00,5.005s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Desire to work with again_star3""))",Firefox 69.0,,,2019-12-05 01:55:00,2019-12-05 01:55:31,30.846s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Encourages work life balance_star3""))",Firefox 69.0,,,2019-12-05 01:55:31,2019-12-05 01:56:02,30.780s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Dependability_star3""))",Firefox 69.0,,,2019-12-05 01:56:02,2019-12-05 01:56:32,30.771s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Solution Seeker_star3""))",Firefox 69.0,,,2019-12-05 01:56:32,2019-12-05 01:57:03,30.834s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Willingness to Learn_star3""))",Firefox 69.0,,,2019-12-05 01:57:03,2019-12-05 01:57:46,42.880s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Enthusiasm_star3""))",Firefox 69.0,,,2019-12-05 01:57:46,2019-12-05 01:58:17,31.237s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Clarity in Communication_star3""))",Firefox 69.0,,,2019-12-05 01:58:17,2019-12-05 01:58:48,30.807s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Mutual Respect_star3""))",Firefox 69.0,,,2019-12-05 01:58:48,2019-12-05 01:59:19,30.615s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/button_Next""))",Firefox 69.0,,,2019-12-05 01:59:19,2019-12-05 02:00:03,44.462s,FAILED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:00:03,2019-12-05 02:00:04,1.017s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:00:07,2019-12-05 02:00:07,0.001s,PASSED
+,,,,,,,
+Test Cases/Search users,Firefox 69.0,,,2019-12-05 02:00:07,2019-12-05 02:00:49,41.460s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:00:07,2019-12-05 02:00:07,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:00:08,2019-12-05 02:00:12,4.748s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:00:12,2019-12-05 02:00:18,5.644s,PASSED
+"setText(findTestObject(""Object Repository/Search user/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:00:18,2019-12-05 02:00:19,0.600s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Search user/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:00:19,2019-12-05 02:00:19,0.400s,PASSED
+"click(findTestObject(""Object Repository/Search user/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:00:19,2019-12-05 02:00:27,8.125s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Rate/Page_Home/input_View all_searchText""), 2)",Firefox 69.0,,,2019-12-05 02:00:27,2019-12-05 02:00:27,0.434s,PASSED
+"setText(findTestObject(""Object Repository/Rate/Page_Home/input_View all_searchText""), ""vijay test"")",Firefox 69.0,,,2019-12-05 02:00:27,2019-12-05 02:00:28,0.416s,PASSED
+"click(findTestObject(""Search user/Search user button""))",Firefox 69.0,,,2019-12-05 02:00:28,2019-12-05 02:00:44,15.770s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_Search/div_Vijay Test""))",Firefox 69.0,,,2019-12-05 02:00:44,2019-12-05 02:00:44,0.727s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 02:00:44,2019-12-05 02:00:46,2.028s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:00:46,2019-12-05 02:00:46,0.009s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:00:49,2019-12-05 02:00:49,0.001s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/ProfileCreationAddSkill,Firefox 69.0,,,2019-12-05 02:00:49,2019-12-05 02:01:46,57.145s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:00:49,2019-12-05 02:00:49,0.001s,PASSED
+"skill = ""SkillInput"" + System.currentTimeMillis()",Firefox 69.0,,,2019-12-05 02:00:49,2019-12-05 02:00:49,0.003s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:00:49,2019-12-05 02:00:55,5.238s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:00:55,2019-12-05 02:01:11,16.241s,PASSED
+"setText(findTestObject(""Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:01:11,2019-12-05 02:01:11,0.560s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:01:11,2019-12-05 02:01:12,0.381s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:01:12,2019-12-05 02:01:19,7.610s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Home/a_profile""))",Firefox 69.0,,,2019-12-05 02:01:19,2019-12-05 02:01:20,0.680s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Home/a_Edit Profile""))",Firefox 69.0,,,2019-12-05 02:01:20,2019-12-05 02:01:24,4.212s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/a_Skills""))",Firefox 69.0,,,2019-12-05 02:01:24,2019-12-05 02:01:25,0.660s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name""))",Firefox 69.0,,,2019-12-05 02:01:25,2019-12-05 02:01:31,5.899s,PASSED
+"clearText(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name""))",Firefox 69.0,,,2019-12-05 02:01:31,2019-12-05 02:01:31,0.305s,PASSED
+delay(1),Firefox 69.0,,,2019-12-05 02:01:31,2019-12-05 02:01:32,1.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/input_Add Skills_skills_name""), skill.toString())",Firefox 69.0,,,2019-12-05 02:01:32,2019-12-05 02:01:33,0.408s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 02:01:33,2019-12-05 02:01:36,3.006s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/div_Add Skills                                                                                    Add Skill""))",Firefox 69.0,,,2019-12-05 02:01:36,2019-12-05 02:01:40,4.636s,PASSED
+"click(findTestObject(""Object Repository/SkillPageObject/Page_Edit Profile/button_Add Skill""))",Firefox 69.0,,,2019-12-05 02:01:40,2019-12-05 02:01:41,0.536s,PASSED
+println(skill),Firefox 69.0,,,2019-12-05 02:01:41,2019-12-05 02:01:41,0.318s,PASSED
+"verifyElementPresent(findTestObject(""SkillPageObject/Page_Edit Profile/li_test123450"", [""text"":skill]), 0)",Firefox 69.0,,,2019-12-05 02:01:41,2019-12-05 02:01:42,0.695s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:01:42,2019-12-05 02:01:44,1.855s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:01:46,2019-12-05 02:01:46,0.000s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/ProfileCreationEducationDetails,Firefox 69.0,,,2019-12-05 02:01:46,2019-12-05 02:02:59,1m - 13.189s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:01:46,2019-12-05 02:01:46,0.001s,PASSED
+"college = ""MyCollege"" + System.currentTimeMillis()",Firefox 69.0,,,2019-12-05 02:01:46,2019-12-05 02:01:46,0.003s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:01:46,2019-12-05 02:01:51,4.726s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:01:51,2019-12-05 02:01:57,5.855s,PASSED
+"setText(findTestObject(""EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:01:57,2019-12-05 02:01:57,0.600s,PASSED
+"setEncryptedText(findTestObject(""EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:01:57,2019-12-05 02:01:58,0.398s,PASSED
+"click(findTestObject(""EducationDetails/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:01:58,2019-12-05 02:02:03,5.729s,PASSED
+"click(findTestObject(""EducationDetails/Page_Home/a_profile""))",Firefox 69.0,,,2019-12-05 02:02:03,2019-12-05 02:02:08,4.792s,PASSED
+"click(findTestObject(""EducationDetails/Page_Home/a_Edit Profile""))",Firefox 69.0,,,2019-12-05 02:02:08,2019-12-05 02:02:13,4.852s,PASSED
+"click(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/a_Education""))",Firefox 69.0,,,2019-12-05 02:02:13,2019-12-05 02:02:14,0.714s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 02:02:14,2019-12-05 02:02:19,5.006s,PASSED
+"waitForElementVisible(findTestObject(""EducationDetails/Page_Edit Profile/button_ Add Education""), 3)",Firefox 69.0,,,2019-12-05 02:02:19,2019-12-05 02:02:19,0.344s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/button_ Add Education""))",Firefox 69.0,,,2019-12-05 02:02:19,2019-12-05 02:02:20,0.586s,PASSED
+sleep(5000),Firefox 69.0,,,2019-12-05 02:02:20,2019-12-05 02:02:25,5.006s,PASSED
+"waitForElementNotVisible(findTestObject(""Experience/Page_Edit Profile/loader""), 5)",Firefox 69.0,,,2019-12-05 02:02:25,2019-12-05 02:02:25,0.329s,PASSED
+"waitForElementPresent(findTestObject(""EducationDetails/Page_Edit Profile/DegreForm""), 5)",Firefox 69.0,,,2019-12-05 02:02:25,2019-12-05 02:02:25,0.287s,PASSED
+"setText(findTestObject(""EducationDetails/Page_Edit Profile/input_Select institute_institute""), college)",Firefox 69.0,,,2019-12-05 02:02:25,2019-12-05 02:02:26,0.437s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/DegreForm""))",Firefox 69.0,,,2019-12-05 02:02:26,2019-12-05 02:02:34,8.375s,PASSED
+"setText(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/input_Degree_degree""), ""worklife"")",Firefox 69.0,,,2019-12-05 02:02:34,2019-12-05 02:02:34,0.352s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/DegreForm""))",Firefox 69.0,,,2019-12-05 02:02:34,2019-12-05 02:02:39,4.479s,PASSED
+"setText(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/input_SpecialityField_specialty""), ""worklife"")",Firefox 69.0,,,2019-12-05 02:02:39,2019-12-05 02:02:39,0.350s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/DegreForm""))",Firefox 69.0,,,2019-12-05 02:02:39,2019-12-05 02:02:44,4.366s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/select_Please selectYear (1)""), ""2008"", true)",Firefox 69.0,,,2019-12-05 02:02:44,2019-12-05 02:02:46,2.120s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/select_Please selectYear""), ""2002"", true)",Firefox 69.0,,,2019-12-05 02:02:46,2019-12-05 02:02:48,1.779s,PASSED
+"setText(findTestObject(""Object Repository/EducationDetails/Page_Edit Profile/textarea_(Optional)_description""), ""Test Description"")",Firefox 69.0,,,2019-12-05 02:02:48,2019-12-05 02:02:48,0.350s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/DegreForm""))",Firefox 69.0,,,2019-12-05 02:02:48,2019-12-05 02:02:49,0.587s,PASSED
+"scrollToElement(findTestObject(""EducationDetails/Page_Edit Profile/button_Save""), 0)",Firefox 69.0,,,2019-12-05 02:02:49,2019-12-05 02:02:49,0.331s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 02:02:49,2019-12-05 02:02:52,3.007s,PASSED
+"click(findTestObject(""EducationDetails/Page_Edit Profile/button_Save""))",Firefox 69.0,,,2019-12-05 02:02:52,2019-12-05 02:02:52,0.550s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 02:02:52,2019-12-05 02:02:55,3.005s,PASSED
+"verifyElementText(findTestObject(""EducationDetails/Page_Edit Profile/h2_MyCollege"", [""college"":college]), college)",Firefox 69.0,,,2019-12-05 02:02:55,2019-12-05 02:02:55,0.002s,NOT_RUN
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:02:55,2019-12-05 02:02:57,1.294s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:02:59,2019-12-05 02:02:59,0.001s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/ProfileCreationExperience,Firefox 69.0,,,2019-12-05 02:02:59,2019-12-05 02:04:38,1m - 38.641s,FAILED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:02:59,2019-12-05 02:02:59,0.000s,PASSED
+"DesignationName = ""abcd"" + System.currentTimeMillis()",Firefox 69.0,,,2019-12-05 02:02:59,2019-12-05 02:02:59,0.011s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:02:59,2019-12-05 02:03:04,4.694s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:03:04,2019-12-05 02:03:29,24.527s,PASSED
+"setText(findTestObject(""Page_theworklife/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:03:29,2019-12-05 02:03:29,0.559s,PASSED
+"setEncryptedText(findTestObject(""Page_theworklife/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:03:29,2019-12-05 02:03:29,0.389s,PASSED
+"click(findTestObject(""Page_theworklife/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:03:29,2019-12-05 02:03:39,9.517s,PASSED
+"navigateToUrl(""https://qa.thework.life/Profile/EditProfile"")",Firefox 69.0,,,2019-12-05 02:03:39,2019-12-05 02:03:49,9.932s,PASSED
+"click(findTestObject(""Page_Edit Profile/a_Experience""))",Firefox 69.0,,,2019-12-05 02:03:49,2019-12-05 02:04:34,45.001s,FAILED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:04:34,2019-12-05 02:04:35,1.363s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:04:38,2019-12-05 02:04:38,0.000s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/ProfileCreationPersonalDetails,Firefox 69.0,,,2019-12-05 02:04:38,2019-12-05 02:05:24,46.219s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:04:38,2019-12-05 02:04:38,0.001s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:04:38,2019-12-05 02:04:43,4.723s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:04:43,2019-12-05 02:04:48,5.390s,PASSED
+"setText(findTestObject(""Page_theworklife/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:04:48,2019-12-05 02:04:49,0.600s,PASSED
+"setEncryptedText(findTestObject(""Page_theworklife/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:04:49,2019-12-05 02:04:49,0.408s,PASSED
+"click(findTestObject(""Page_theworklife/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:04:49,2019-12-05 02:04:55,6.385s,PASSED
+"click(findTestObject(""Page_Edit Profile/a_profile""))",Firefox 69.0,,,2019-12-05 02:04:55,2019-12-05 02:04:56,0.554s,PASSED
+"click(findTestObject(""Page_Home/a_Edit Profile""))",Firefox 69.0,,,2019-12-05 02:04:56,2019-12-05 02:05:01,4.994s,PASSED
+"setText(findTestObject(""Page_Edit Profile/input_Name_name""), ""Suraj"" + System.currentTimeMillis() + ""makhija"")",Firefox 69.0,,,2019-12-05 02:05:01,2019-12-05 02:05:02,0.618s,PASSED
+"click(findTestObject(""profileObject/Page_Edit Profile/button_Save""))",Firefox 69.0,,,2019-12-05 02:05:02,2019-12-05 02:05:02,0.780s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 02:05:02,2019-12-05 02:05:07,5.004s,PASSED
+"waitForElementVisible(findTestObject(""profileObject/Page_Edit Profile/a_OK""), 5)",Firefox 69.0,,,2019-12-05 02:05:07,2019-12-05 02:05:08,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Edit Profile/a_OK""))",Firefox 69.0,,,2019-12-05 02:05:08,2019-12-05 02:05:08,0.540s,PASSED
+"waitForElementVisible(findTestObject(""Page_Home/a_profile""), 5)",Firefox 69.0,,,2019-12-05 02:05:08,2019-12-05 02:05:16,7.689s,PASSED
+"click(findTestObject(""Object Repository/Page_Edit Profile/a_profile""))",Firefox 69.0,,,2019-12-05 02:05:16,2019-12-05 02:05:16,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Edit Profile/a_My Profile""))",Firefox 69.0,,,2019-12-05 02:05:16,2019-12-05 02:05:20,3.099s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Profile/h1_Suraj1569757068652makhija""), 0)",Firefox 69.0,,,2019-12-05 02:05:20,2019-12-05 02:05:20,0.460s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 02:05:20,2019-12-05 02:05:22,1.646s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:05:22,2019-12-05 02:05:22,0.006s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:05:24,2019-12-05 02:05:24,0.000s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/ProfileDeletion,Firefox 69.0,,,2019-12-05 02:05:24,2019-12-05 02:05:53,29.091s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:05:24,2019-12-05 02:05:24,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:05:24,2019-12-05 02:05:28,4.213s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:05:28,2019-12-05 02:05:33,5.078s,PASSED
+"setText(findTestObject(""Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10002@gmail.com"")",Firefox 69.0,,,2019-12-05 02:05:33,2019-12-05 02:05:34,0.529s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/DeletionObject/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:05:34,2019-12-05 02:05:34,0.412s,PASSED
+"click(findTestObject(""Experience/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:05:34,2019-12-05 02:05:42,7.327s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Home/i_Settings_fa fa-gear""))",Firefox 69.0,,,2019-12-05 02:05:42,2019-12-05 02:05:42,0.661s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Home/a_Settings""))",Firefox 69.0,,,2019-12-05 02:05:42,2019-12-05 02:05:45,2.793s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Settings/a_Account Basics""))",Firefox 69.0,,,2019-12-05 02:05:45,2019-12-05 02:05:46,0.733s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Settings/a_Delete Account""))",Firefox 69.0,,,2019-12-05 02:05:46,2019-12-05 02:05:46,0.556s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/DeletionObject/Page_Settings/input_Enter your password to confirm_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:05:46,2019-12-05 02:05:47,0.498s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Settings/a_Delete""))",Firefox 69.0,,,2019-12-05 02:05:47,2019-12-05 02:05:48,0.591s,PASSED
+"waitForElementClickable(findTestObject(""DeletionObject/Page_Settings/a_OK""), 0)",Firefox 69.0,,,2019-12-05 02:05:48,2019-12-05 02:05:48,0.750s,PASSED
+"waitForElementVisible(findTestObject(""DeletionObject/Page_Settings/a_OK""), 0)",Firefox 69.0,,,2019-12-05 02:05:48,2019-12-05 02:05:49,0.390s,PASSED
+"click(findTestObject(""Object Repository/DeletionObject/Page_Settings/a_OK""))",Firefox 69.0,,,2019-12-05 02:05:49,2019-12-05 02:05:49,0.564s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:05:49,2019-12-05 02:05:51,1.565s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:05:53,2019-12-05 02:05:53,0.000s,PASSED
+,,,,,,,
+Test Cases/workLifeTest/FailureTest,Firefox 69.0,,,2019-12-05 02:05:53,2019-12-05 02:06:11,18.409s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:05:53,2019-12-05 02:05:53,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:05:53,2019-12-05 02:05:57,4.199s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:05:57,2019-12-05 02:06:03,5.367s,PASSED
+"setText(findTestObject(""Object Repository/Page_theworklife/input_Forgot password_username""), ""jsgifuwidw@gmail.com"")",Firefox 69.0,,,2019-12-05 02:06:03,2019-12-05 02:06:03,0.554s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_theworklife/input_Forgot password_password""), ""I24EpPs9VQ1LZoTHit0ojg=="")",Firefox 69.0,,,2019-12-05 02:06:03,2019-12-05 02:06:04,0.462s,PASSED
+"click(findTestObject(""Object Repository/Page_theworklife/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:06:04,2019-12-05 02:06:06,2.674s,PASSED
+"click(findTestObject(""Object Repository/Page_theworklife/span_Username or Email ID does not exist""))",Firefox 69.0,,,2019-12-05 02:06:06,2019-12-05 02:06:07,0.644s,PASSED
+"verifyElementText(findTestObject(""Page_theworklife/span_Username or Email ID does not exist""), ""Username or Email ID does not exist!"")",Firefox 69.0,,,2019-12-05 02:06:07,2019-12-05 02:06:08,0.650s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 02:06:08,2019-12-05 02:06:09,1.457s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:06:09,2019-12-05 02:06:09,0.004s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:06:11,2019-12-05 02:06:11,0.000s,PASSED
+,,,,,,,
+Test Cases/New regression cases/Moderation of review,Firefox 69.0,,,2019-12-05 02:06:11,2019-12-05 02:07:04,53.005s,FAILED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:06:11,2019-12-05 02:06:11,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:06:12,2019-12-05 02:06:16,4.705s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:06:16,2019-12-05 02:06:21,5.024s,PASSED
+"setText(findTestObject(""Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""twl.moderator2@thework.life"")",Firefox 69.0,,,2019-12-05 02:06:21,2019-12-05 02:06:22,0.577s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""8PaKxJY1Q9KyHtQHchZ+/brhRmpikEMj"")",Firefox 69.0,,,2019-12-05 02:06:22,2019-12-05 02:06:23,0.438s,PASSED
+"click(findTestObject(""Object Repository/moderate1/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:06:23,2019-12-05 02:06:25,2.456s,PASSED
+"click(findTestObject(""Object Repository/moderate1/Page_Home/a_pending actions""))",Firefox 69.0,,,2019-12-05 02:06:25,2019-12-05 02:07:02,36.801s,FAILED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:07:02,2019-12-05 02:07:02,0.391s,ERROR
+Video,Firefox 69.0,,,2019-12-05 02:07:04,2019-12-05 02:07:04,0.000s,PASSED
+,,,,,,,
+Test Cases/Thumbing - Upvote and downvote - prod,Firefox 69.0,,,2019-12-05 02:07:04,2019-12-05 02:08:33,1m - 28.339s,FAILED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:07:04,2019-12-05 02:07:04,0.000s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:07:05,2019-12-05 02:07:09,4.078s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:07:09,2019-12-05 02:07:14,5.298s,PASSED
+"setText(findTestObject(""Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username""), ""vijayvstest01@gmail.com"")",Firefox 69.0,,,2019-12-05 02:07:14,2019-12-05 02:07:15,0.674s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""cvW8qx4B2o3F4VwP/kNsqA=="")",Firefox 69.0,,,2019-12-05 02:07:15,2019-12-05 02:07:15,0.405s,PASSED
+"click(findTestObject(""Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:07:15,2019-12-05 02:07:23,7.841s,PASSED
+"setText(findTestObject(""Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText""), ""suraj"")",Firefox 69.0,,,2019-12-05 02:07:23,2019-12-05 02:07:24,0.522s,PASSED
+"click(findTestObject(""Search user/Search user button""))",Firefox 69.0,,,2019-12-05 02:07:24,2019-12-05 02:07:35,11.538s,PASSED
+"waitForElementClickable(findTestObject(""Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija""), 3)",Firefox 69.0,,,2019-12-05 02:07:35,2019-12-05 02:07:35,0.401s,PASSED
+delay(5),Firefox 69.0,,,2019-12-05 02:07:35,2019-12-05 02:07:40,5.008s,PASSED
+"click(findTestObject(""Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija""))",Firefox 69.0,,,2019-12-05 02:07:40,2019-12-05 02:07:41,0.582s,PASSED
+delay(3),Firefox 69.0,,,2019-12-05 02:07:41,2019-12-05 02:07:44,3.010s,PASSED
+"scrollToElement(findTestObject(""Thumbing-Upvote and Downvote/Page_View Profile/span_Agree""), 5)",Firefox 69.0,,,2019-12-05 02:07:44,2019-12-05 02:08:29,44.951s,FAILED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:08:29,2019-12-05 02:08:30,1.389s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:08:33,2019-12-05 02:08:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Rate users - third party - prod,Firefox 69.0,,,2019-12-05 02:08:33,2019-12-05 02:14:27,5m - 54.222s,FAILED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:08:33,2019-12-05 02:08:33,0.001s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:08:33,2019-12-05 02:08:38,4.728s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:08:38,2019-12-05 02:08:44,5.845s,PASSED
+"setText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""worklifetest10001@gmail.com"")",Firefox 69.0,,,2019-12-05 02:08:44,2019-12-05 02:08:44,0.540s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""x8UobeF0bbxd7GrPsdhkIlsTrhBxwBw1"")",Firefox 69.0,,,2019-12-05 02:08:44,2019-12-05 02:08:45,0.460s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:08:45,2019-12-05 02:08:47,2.779s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/input_Password does not match_password""), ""XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U"")",Firefox 69.0,,,2019-12-05 02:08:47,2019-12-05 02:08:48,0.494s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:08:48,2019-12-05 02:08:55,6.735s,PASSED
+"setText(findTestObject(""Object Repository/Rate/Page_Home/input_View all_searchText""), ""USER1575490010352"")",Firefox 69.0,,,2019-12-05 02:08:55,2019-12-05 02:08:55,0.613s,PASSED
+"click(findTestObject(""Rate/Page_Home/Search user button""))",Firefox 69.0,,,2019-12-05 02:08:55,2019-12-05 02:09:17,22.123s,PASSED
+"click(findTestObject(""Rate/Page_Home/click on user to rate""))",Firefox 69.0,,,2019-12-05 02:09:17,2019-12-05 02:09:18,0.648s,PASSED
+"click(findTestObject(""Rate/Page_Home/Click rate now""))",Firefox 69.0,,,2019-12-05 02:09:18,2019-12-05 02:09:26,8.372s,PASSED
+"waitForElementClickable(findTestObject(""Rate/Page_View Profile/span_Desire to work with again_star3""), 5)",Firefox 69.0,,,2019-12-05 02:09:26,2019-12-05 02:09:27,0.753s,PASSED
+sleep(5000),Firefox 69.0,,,2019-12-05 02:09:27,2019-12-05 02:09:27,0.002s,NOT_RUN
+delay(5),Firefox 69.0,,,2019-12-05 02:09:27,2019-12-05 02:09:32,5.004s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Desire to work with again_star3""))",Firefox 69.0,,,2019-12-05 02:09:32,2019-12-05 02:10:03,30.698s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Encourages work life balance_star3""))",Firefox 69.0,,,2019-12-05 02:10:03,2019-12-05 02:10:34,30.741s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Dependability_star3""))",Firefox 69.0,,,2019-12-05 02:10:34,2019-12-05 02:11:04,30.676s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Solution Seeker_star3""))",Firefox 69.0,,,2019-12-05 02:11:04,2019-12-05 02:11:35,30.642s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Willingness to Learn_star3""))",Firefox 69.0,,,2019-12-05 02:11:35,2019-12-05 02:12:06,30.631s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Enthusiasm_star3""))",Firefox 69.0,,,2019-12-05 02:12:06,2019-12-05 02:12:36,30.660s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Clarity in Communication_star3""))",Firefox 69.0,,,2019-12-05 02:12:36,2019-12-05 02:13:07,30.673s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/span_Mutual Respect_star3""))",Firefox 69.0,,,2019-12-05 02:13:07,2019-12-05 02:13:38,30.795s,PASSED
+"click(findTestObject(""Object Repository/Rate/Page_View Profile/button_Next""))",Firefox 69.0,,,2019-12-05 02:13:38,2019-12-05 02:14:23,45.183s,FAILED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:14:23,2019-12-05 02:14:24,1.127s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:14:27,2019-12-05 02:14:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Third party profile,Firefox 69.0,,,2019-12-05 02:14:27,2019-12-05 02:16:29,2m - 1.786s,PASSED
+Start listener action : beforeTestcase,Firefox 69.0,,,2019-12-05 02:14:27,2019-12-05 02:14:27,0.001s,PASSED
+openBrowser(ProdAppUrl),Firefox 69.0,,,2019-12-05 02:14:27,2019-12-05 02:14:35,7.231s,PASSED
+"navigateToUrl(""https://www.thework.life/"")",Firefox 69.0,,,2019-12-05 02:14:35,2019-12-05 02:14:40,5.595s,PASSED
+"setText(findTestObject(""Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""vijayvstest01@gmail.com"")",Firefox 69.0,,,2019-12-05 02:14:40,2019-12-05 02:14:44,3.386s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""cvW8qx4B2o3F4VwP/kNsqA=="")",Firefox 69.0,,,2019-12-05 02:14:44,2019-12-05 02:14:46,1.986s,PASSED
+"click(findTestObject(""Object Repository/Third party/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-12-05 02:14:46,2019-12-05 02:14:55,9.665s,PASSED
+"setText(findTestObject(""Object Repository/Third party/Page_Home/input_View all_searchText""), ""user"")",Firefox 69.0,,,2019-12-05 02:14:55,2019-12-05 02:14:58,2.737s,PASSED
+"click(findTestObject(""Third party/Page_Search/Search user button""))",Firefox 69.0,,,2019-12-05 02:14:58,2019-12-05 02:15:20,21.838s,PASSED
+"waitForElementVisible(findTestObject(""Third party/Page_Search/span_Create their profile anonymously""), 3)",Firefox 69.0,,,2019-12-05 02:15:20,2019-12-05 02:15:22,2.100s,PASSED
+"click(findTestObject(""Object Repository/Third party/Page_Search/span_Create their profile anonymously""))",Firefox 69.0,,,2019-12-05 02:15:22,2019-12-05 02:15:25,2.806s,PASSED
+"waitForElementVisible(findTestObject(""Third party/Page_Search/div_(Optional)_multiple_emails-container""), 3)",Firefox 69.0,,,2019-12-05 02:15:25,2019-12-05 02:15:36,11.546s,PASSED
+"click(findTestObject(""Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container""))",Firefox 69.0,,,2019-12-05 02:15:36,2019-12-05 02:15:39,2.556s,PASSED
+"setText(findTestObject(""Object Repository/Third party/Page_Search/input_Linkedin_txtLiLink""), ""appliedai"" + System.currentTimeMillis())",Firefox 69.0,,,2019-12-05 02:15:39,2019-12-05 02:15:42,3.351s,PASSED
+"click(findTestObject(""Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container""))",Firefox 69.0,,,2019-12-05 02:15:42,2019-12-05 02:15:45,2.670s,PASSED
+"setText(findTestObject(""Object Repository/Third party/Page_Search/input_(Optional)_multiple_emails-input text-left""), ""testing@appliedaiconsulting.com"")",Firefox 69.0,,,2019-12-05 02:15:45,2019-12-05 02:15:47,2.400s,PASSED
+"setText(findTestObject(""Object Repository/Third party/Page_Search/input_Name_txtFirstName""), ""user"" + System.currentTimeMillis())",Firefox 69.0,,,2019-12-05 02:15:47,2019-12-05 02:15:51,4.012s,PASSED
+"click(findTestObject(""Object Repository/Third party/Page_Search/button_Add""))",Firefox 69.0,,,2019-12-05 02:15:51,2019-12-05 02:15:54,2.654s,PASSED
+"waitForElementClickable(findTestObject(""Third party/Page_Search/a_OK""), 3)",Firefox 69.0,,,2019-12-05 02:15:54,2019-12-05 02:16:01,7.381s,PASSED
+sleep(4000),Firefox 69.0,,,2019-12-05 02:16:01,2019-12-05 02:16:05,4.002s,PASSED
+"click(findTestObject(""Third party/Page_Search/a_OK""))",Firefox 69.0,,,2019-12-05 02:16:05,2019-12-05 02:16:25,19.457s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-12-05 02:16:25,2019-12-05 02:16:26,1.480s,PASSED
+Start listener action : afterTestcase,Firefox 69.0,,,2019-12-05 02:16:26,2019-12-05 02:16:26,0.011s,PASSED
+Video,Firefox 69.0,,,2019-12-05 02:16:29,2019-12-05 02:16:29,0.000s,PASSED

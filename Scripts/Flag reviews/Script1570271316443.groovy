@@ -16,9 +16,9 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.openBrowser(GlobalVariable.AppUrl)
+WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.navigateToUrl('https://www.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/flag review/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
     'vijayvstest01@gmail.com')
@@ -32,9 +32,7 @@ WebUI.click(findTestObject('flag review/Click profile'))
 
 WebUI.click(findTestObject('flag review/click myprofile'))
 
-WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/span_Report'), 3)
-
-WebUI.delay(3)
+WebUI.waitForElementClickable(findTestObject('flag review/Page_View Profile/click btn-btn report'), 7)
 
 WebUI.click(findTestObject('flag review/Page_View Profile/click btn-btn report'))
 

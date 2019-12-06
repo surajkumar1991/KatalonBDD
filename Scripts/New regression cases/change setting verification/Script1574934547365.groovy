@@ -22,11 +22,13 @@ currentPassword = 'Test@123'
 
 newPassword = 'Test@1234'
 
-WebUI.setText(findTestObject('Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 'newsuraj10001@gmail.com')
+WebUI.setText(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+    'newsuraj10001@gmail.com')
 
-WebUI.setText(findTestObject('Page_theworklife - Find Great People To Work With/input_Forgot password_password'), currentPassword)
+WebUI.setText(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+    currentPassword)
 
-WebUI.click(findTestObject('Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
 WebUI.delay(3)
 
@@ -72,11 +74,13 @@ WebUI.click(findTestObject('change settings/Page_Settings/a_OK'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 'newsuraj10001@gmail.com')
+WebUI.setText(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_username'), 
+    'newsuraj10001@gmail.com')
 
-WebUI.setText(findTestObject('Page_theworklife - Find Great People To Work With/input_Forgot password_password'), newPassword)
+WebUI.setText(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
+    newPassword)
 
-WebUI.click(findTestObject('Page_theworklife - Find Great People To Work With/button_Sign in'))
+WebUI.click(findTestObject('change setttings/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
 WebUI.delay(2)
 

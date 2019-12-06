@@ -1,0 +1,84 @@
+1
+00:00:00,503 --> 00:00:00,505
+1. openBrowser(ProdAppUrl)
+
+2
+00:00:07,735 --> 00:00:07,736
+5. navigateToUrl("https://www.thework.life/")
+
+3
+00:00:13,329 --> 00:00:13,330
+9. setText(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "vijayvstest01@gmail.com")
+
+4
+00:00:16,716 --> 00:00:16,717
+13. setEncryptedText(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+5
+00:00:18,702 --> 00:00:18,703
+17. click(findTestObject("Object Repository/Third party/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:28,367 --> 00:00:28,368
+21. setText(findTestObject("Object Repository/Third party/Page_Home/input_View all_searchText"), "user")
+
+7
+00:00:31,103 --> 00:00:31,104
+25. click(findTestObject("Third party/Page_Search/Search user button"))
+
+8
+00:00:52,942 --> 00:00:52,942
+29. waitForElementVisible(findTestObject("Third party/Page_Search/span_Create their profile anonymously"), 3)
+
+9
+00:00:55,042 --> 00:00:55,042
+33. click(findTestObject("Object Repository/Third party/Page_Search/span_Create their profile anonymously"))
+
+10
+00:00:57,848 --> 00:00:57,849
+37. waitForElementVisible(findTestObject("Third party/Page_Search/div_(Optional)_multiple_emails-container"), 3)
+
+11
+00:01:09,395 --> 00:01:09,396
+41. click(findTestObject("Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container"))
+
+12
+00:01:11,951 --> 00:01:11,952
+45. setText(findTestObject("Object Repository/Third party/Page_Search/input_Linkedin_txtLiLink"), "appliedai" + System.currentTimeMillis())
+
+13
+00:01:15,303 --> 00:01:15,303
+49. click(findTestObject("Object Repository/Third party/Page_Search/div_(Optional)_multiple_emails-container"))
+
+14
+00:01:17,972 --> 00:01:17,974
+53. setText(findTestObject("Object Repository/Third party/Page_Search/input_(Optional)_multiple_emails-input text-left"), "testing@appliedaiconsulting.com")
+
+15
+00:01:20,373 --> 00:01:20,373
+57. setText(findTestObject("Object Repository/Third party/Page_Search/input_Name_txtFirstName"), "user" + System.currentTimeMillis())
+
+16
+00:01:24,385 --> 00:01:24,386
+61. click(findTestObject("Object Repository/Third party/Page_Search/button_Add"))
+
+17
+00:01:27,040 --> 00:01:27,041
+65. waitForElementClickable(findTestObject("Third party/Page_Search/a_OK"), 3)
+
+18
+00:01:34,421 --> 00:01:34,422
+69. sleep(4000)
+
+19
+00:01:38,423 --> 00:01:38,425
+73. click(findTestObject("Third party/Page_Search/a_OK"))
+
+20
+00:01:57,882 --> 00:01:57,882
+77. closeBrowser()
+
+21
+00:01:59,368 --> 00:01:59,369
+1. closeBrowser()
+

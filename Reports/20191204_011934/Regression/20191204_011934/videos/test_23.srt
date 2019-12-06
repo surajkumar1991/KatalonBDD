@@ -1,0 +1,68 @@
+1
+00:00:00,433 --> 00:00:00,433
+1. openBrowser("")
+
+2
+00:00:05,655 --> 00:00:05,656
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:12,647 --> 00:00:12,648
+9. setText(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "testverification1@thework.life")
+
+4
+00:00:13,304 --> 00:00:13,305
+13. setEncryptedText(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "JgOuj8sM3IgE5J2WfVow4w==")
+
+5
+00:00:13,694 --> 00:00:13,695
+17. click(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:17,019 --> 00:00:17,020
+21. click(findTestObject("Object Repository/verification fail/Page_Verify Facebook User/span"))
+
+7
+00:00:17,714 --> 00:00:17,715
+25. setText(findTestObject("Object Repository/verification fail/Page_Verify Facebook User/input_Verification Link_fb_verificationLink"), "https://www.linkedin.com/in/naya-suraj-428992197/")
+
+8
+00:00:18,133 --> 00:00:18,134
+29. setText(findTestObject("Object Repository/verification fail/Page_Verify Facebook User/input_Verification Code_v_Code"), "12345")
+
+9
+00:00:18,539 --> 00:00:18,539
+33. click(findTestObject("Object Repository/verification fail/Page_Verify Facebook User/button_Submit"))
+
+10
+00:00:20,075 --> 00:00:20,076
+37. click(findTestObject("Object Repository/verification fail/Page_Verify Facebook User/a_Logout"))
+
+11
+00:00:23,145 --> 00:00:23,146
+41. setText(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+12
+00:00:23,661 --> 00:00:23,662
+45. setEncryptedText(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+13
+00:00:24,071 --> 00:00:24,071
+49. click(findTestObject("Object Repository/verification fail/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+14
+00:00:30,141 --> 00:00:30,142
+53. click(findTestObject("Object Repository/verification fail/Page_Home/button_No connection requests available_btn dropdown-toggle"))
+
+15
+00:00:30,898 --> 00:00:30,898
+57. click(findTestObject("Object Repository/verification fail/Page_Home/a_View all"))
+
+16
+00:01:01,772 --> 00:01:01,773
+61. closeBrowser()
+
+17
+00:01:03,263 --> 00:01:03,263
+1. closeBrowser()
+

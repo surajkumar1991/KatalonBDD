@@ -1,0 +1,32 @@
+1
+00:00:00,453 --> 00:00:00,455
+1. openBrowser("")
+
+2
+00:00:06,463 --> 00:00:06,464
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:13,517 --> 00:00:13,518
+9. setText(findTestObject("Object Repository/skip verification/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username"), "newsuraj10001@gmail.com")
+
+4
+00:00:14,160 --> 00:00:14,161
+13. setText(findTestObject("Object Repository/skip verification/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "newsuraj10001@gmail.com")
+
+5
+00:00:14,665 --> 00:00:14,666
+17. setEncryptedText(findTestObject("Object Repository/skip verification/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "cvW8qx4B2o3F4VwP/kNsqA==")
+
+6
+00:00:15,156 --> 00:00:15,157
+21. click(findTestObject("Object Repository/skip verification/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+7
+00:00:21,283 --> 00:00:21,285
+25. click(findTestObject("Object Repository/skip verification/Page_LinkedIn Username/button_Do it Later"))
+
+8
+00:01:06,318 --> 00:01:06,319
+1. closeBrowser()
+

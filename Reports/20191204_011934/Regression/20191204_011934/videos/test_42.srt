@@ -1,0 +1,128 @@
+1
+00:00:00,464 --> 00:00:00,465
+1. openBrowser(AppUrl)
+
+2
+00:00:14,163 --> 00:00:14,165
+5. navigateToUrl(AppUrl)
+
+3
+00:00:16,426 --> 00:00:16,427
+9. click(findTestObject("Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:17,154 --> 00:00:17,155
+13. click(findTestObject("Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/div_ Register to theworklife"))
+
+5
+00:00:17,814 --> 00:00:17,814
+17. click(findTestObject("Object Repository/FacebookLogin/Page_theworklife - Find Great People To Work With/button_Facebook"))
+
+6
+00:00:18,689 --> 00:00:18,689
+21. delay(2)
+
+7
+00:00:20,697 --> 00:00:20,698
+25. switchToWindowTitle("Facebook")
+
+8
+00:00:20,824 --> 00:00:20,824
+29. waitForElementClickable(findTestObject("FacebookLogin/Page_Facebook/input_Email address or phone number_email"), 5)
+
+9
+00:00:21,199 --> 00:00:21,200
+33. clearText(findTestObject("FacebookLogin/Page_Facebook/input_Email address or phone number_email"))
+
+10
+00:00:21,511 --> 00:00:21,511
+37. setText(findTestObject("FacebookLogin/Page_Facebook/input_Email address or phone number_email"), "worklifetest10002@gmail.com")
+
+11
+00:00:21,950 --> 00:00:21,950
+41. setEncryptedText(findTestObject("FacebookLogin/Page_Facebook/input_Password_pass"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+12
+00:00:22,388 --> 00:00:22,389
+45. click(findTestObject("FacebookLogin/Page_Facebook/input_Password_login"))
+
+13
+00:00:25,736 --> 00:00:25,739
+49. delay(12)
+
+14
+00:00:37,744 --> 00:00:37,745
+53. switchToWindowTitle("Sign Up")
+
+15
+00:00:37,767 --> 00:00:37,767
+57. delay(12)
+
+16
+00:00:49,772 --> 00:00:49,773
+61. waitForElementClickable(findTestObject("FacebookLogin/Page_Sign Up/input_Username_username"), 5)
+
+17
+00:00:50,120 --> 00:00:50,121
+65. setText(findTestObject("FacebookLogin/Page_Sign Up/input_Username_username"), "testing" + System.currentTimeMillis())
+
+18
+00:00:50,573 --> 00:00:50,573
+69. setEncryptedText(findTestObject("FacebookLogin/Page_Sign Up/input_Password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+19
+00:00:52,701 --> 00:00:52,701
+73. click(findTestObject("FacebookLogin/Page_Sign Up/i_Very Strong_cr-icon fa fa-check"))
+
+20
+00:00:53,611 --> 00:00:53,612
+77. click(findTestObject("FacebookLogin/Page_Sign Up/button_Continue"))
+
+21
+00:00:54,193 --> 00:00:54,193
+81. click(findTestObject("Object Repository/FacebookLogin/Page_Facebook Username/u_Click here"))
+
+22
+00:01:00,200 --> 00:01:00,201
+85. switchToWindowTitle("Facebook Username")
+
+23
+00:01:00,258 --> 00:01:00,259
+89. setText(findTestObject("FacebookLogin/Page_Facebook Username/input_Click here_fb_username"), "https://www.facebook.com/jiten.makhija.125#_")
+
+24
+00:01:09,137 --> 00:01:09,138
+93. click(findTestObject("Object Repository/FacebookLogin/Page_Facebook Username/button_Submit"))
+
+25
+00:01:12,903 --> 00:01:12,904
+97. waitForElementClickable(findTestObject("FacebookLogin/Page_Facebook Username/u_Click here_1"), 5)
+
+26
+00:01:13,632 --> 00:01:13,633
+101. waitForElementNotPresent(findTestObject("Experience/Page_Edit Profile/loader"), 5)
+
+27
+00:01:19,110 --> 00:01:19,111
+105. delay(10)
+
+28
+00:01:29,115 --> 00:01:29,115
+109. click(findTestObject("Object Repository/FacebookLogin/Page_Facebook Username/u_Click here_1"))
+
+29
+00:01:30,085 --> 00:01:30,085
+113. click(findTestObject("Object Repository/FacebookLogin/Page_Facebook Username/a_Finish"))
+
+30
+00:02:01,058 --> 00:02:01,059
+117. waitForElementVisible(findTestObject("FacebookLogin/Page_Home/div_Application Guide"), 5)
+
+31
+00:02:07,453 --> 00:02:07,453
+121. click(findTestObject("Object Repository/FacebookLogin/Page_Home/div_Application Guide"))
+
+32
+00:02:52,120 --> 00:02:52,120
+1. closeBrowser()
+

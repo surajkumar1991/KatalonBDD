@@ -1,0 +1,40 @@
+1
+00:00:00,542 --> 00:00:00,543
+1. openBrowser("")
+
+2
+00:00:06,686 --> 00:00:06,689
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:27,512 --> 00:00:27,513
+9. click(findTestObject("Object Repository/wrong SMN linkedin/Page_theworklife - Find Great People To Work With/a_Join Now"))
+
+4
+00:00:28,206 --> 00:00:28,207
+13. click(findTestObject("Object Repository/wrong SMN linkedin/Page_theworklife - Find Great People To Work With/button_LinkedIn"))
+
+5
+00:00:31,755 --> 00:00:31,756
+17. setText(findTestObject("Object Repository/wrong SMN linkedin/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_key"), "abch")
+
+6
+00:00:33,083 --> 00:00:33,086
+21. setEncryptedText(findTestObject("Object Repository/wrong SMN linkedin/Page_LinkedIn Login Sign in  LinkedIn/input_Welcome Back_session_password"), "ZyfiVmRGqPA=")
+
+7
+00:00:33,538 --> 00:00:33,539
+25. click(findTestObject("Object Repository/wrong SMN linkedin/Page_LinkedIn Login Sign in  LinkedIn/button_Sign in"))
+
+8
+00:00:34,944 --> 00:00:34,946
+29. verifyTextPresent("Please enter a valid username", false)
+
+9
+00:00:35,609 --> 00:00:35,611
+33. closeBrowser()
+
+10
+00:00:37,858 --> 00:00:37,859
+1. closeBrowser()
+

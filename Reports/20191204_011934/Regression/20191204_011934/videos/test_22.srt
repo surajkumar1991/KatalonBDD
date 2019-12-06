@@ -1,0 +1,88 @@
+1
+00:00:00,420 --> 00:00:00,421
+1. openBrowser("")
+
+2
+00:00:05,634 --> 00:00:05,634
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:12,705 --> 00:00:12,706
+9. setText(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "twl.moderator2@thework.life")
+
+4
+00:00:13,325 --> 00:00:13,326
+13. setEncryptedText(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "8PaKxJY1Q9KyHtQHchZ+/brhRmpikEMj")
+
+5
+00:00:13,845 --> 00:00:13,845
+17. click(findTestObject("Object Repository/moderate1/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:22,727 --> 00:00:22,729
+21. click(findTestObject("Object Repository/moderate1/Page_Home/a_pending actions"))
+
+7
+00:00:26,803 --> 00:00:26,803
+25. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Moderate"))
+
+8
+00:00:27,529 --> 00:00:27,530
+29. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Keep It"))
+
+9
+00:00:28,199 --> 00:00:28,200
+33. setText(findTestObject("Object Repository/moderate1/Page_Pending Actions/textarea_i donr fblkfllskhgkhsgkhgksg_txtRemark"), "kgfjajkfsgjkflcbjksgfjsbvklbsjgjsbjbsjkgbvsjkbvjksbvjkbkjbvjksbvjkbsjkbvjskbvksbvksbvkbj")
+
+10
+00:00:28,704 --> 00:00:28,704
+37. click(findTestObject("Object Repository/moderate1/Page_Pending Actions/button_Keep It"))
+
+11
+00:00:29,396 --> 00:00:29,397
+41. closeBrowser()
+
+12
+00:00:31,157 --> 00:00:31,158
+45. openBrowser("")
+
+13
+00:00:36,397 --> 00:00:36,398
+49. navigateToUrl("https://qa.thework.life/")
+
+14
+00:00:43,353 --> 00:00:43,353
+53. setText(findTestObject("Object Repository/supermodetor reveiw/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "supermoderator@thework.life")
+
+15
+00:00:44,001 --> 00:00:44,002
+57. setEncryptedText(findTestObject("Object Repository/supermodetor reveiw/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "brzxOZY6Pq6zd6YtOOpJEg==")
+
+16
+00:00:44,385 --> 00:00:44,385
+61. click(findTestObject("Object Repository/supermodetor reveiw/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+17
+00:00:46,587 --> 00:00:46,587
+65. click(findTestObject("Object Repository/supermodetor reveiw/Page_Report/button_Verify"))
+
+18
+00:00:47,194 --> 00:00:47,196
+69. delay(3)
+
+19
+00:00:50,202 --> 00:00:50,203
+73. setText(findTestObject("Object Repository/supermodetor reveiw/Page_Report/textarea_seems a flag so keeping it_txtRemark"), "i think we should keep the review hwere klsfhklfhklf")
+
+20
+00:00:50,697 --> 00:00:50,697
+77. click(findTestObject("Object Repository/supermodetor reveiw/Page_Report/button_Keep It"))
+
+21
+00:00:51,320 --> 00:00:51,322
+81. closeBrowser()
+
+22
+00:00:53,188 --> 00:00:53,189
+1. closeBrowser()
+

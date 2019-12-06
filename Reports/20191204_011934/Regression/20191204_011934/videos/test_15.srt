@@ -1,0 +1,104 @@
+1
+00:00:00,530 --> 00:00:00,530
+1. openBrowser("")
+
+2
+00:00:07,139 --> 00:00:07,139
+5. navigateToUrl("https://qa.thework.life/")
+
+3
+00:00:16,098 --> 00:00:16,099
+9. setText(findTestObject("Object Repository/message user - verification/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+4
+00:00:16,802 --> 00:00:16,804
+13. setEncryptedText(findTestObject("Object Repository/message user - verification/Page_theworklife - Find Great People To Work With/input_Password does not match_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+5
+00:00:17,453 --> 00:00:17,454
+17. click(findTestObject("Object Repository/message user - verification/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+6
+00:00:25,520 --> 00:00:25,521
+21. delay(4)
+
+7
+00:00:29,526 --> 00:00:29,529
+25. click(findTestObject("Object Repository/message user - verification/Page_Home/a_connections"))
+
+8
+00:00:33,647 --> 00:00:33,648
+29. delay(3)
+
+9
+00:00:36,654 --> 00:00:36,655
+33. click(findTestObject("Object Repository/message user - verification/Page_Connections/button_Message"))
+
+10
+00:00:37,468 --> 00:00:37,470
+37. delay(2)
+
+11
+00:00:39,483 --> 00:00:39,489
+41. click(findTestObject("message user - verification/Page_Message/mouse hover"))
+
+12
+00:00:40,963 --> 00:00:40,964
+45. click(findTestObject("Object Repository/message user - verification/Page_Message/button_Delete chat"))
+
+13
+00:00:41,694 --> 00:00:41,695
+49. delay(2)
+
+14
+00:00:43,704 --> 00:00:43,705
+53. click(findTestObject("message user - verification/Page_Message/mouse hover"))
+
+15
+00:00:45,038 --> 00:00:45,040
+57. click(findTestObject("Object Repository/message user - verification/Page_Message/button_Block chat"))
+
+16
+00:00:45,840 --> 00:00:45,841
+61. delay(2)
+
+17
+00:00:47,850 --> 00:00:47,853
+65. verifyTextPresent("blocked this chat", true)
+
+18
+00:00:49,588 --> 00:00:49,589
+69. click(findTestObject("Object Repository/message user - verification/Page_Message/button_Unblock"))
+
+19
+00:00:50,547 --> 00:00:50,548
+73. delay(2)
+
+20
+00:00:52,558 --> 00:00:52,559
+77. setText(findTestObject("Object Repository/message user - verification/Page_Message/div_hi"), "hi")
+
+21
+00:00:53,486 --> 00:00:53,487
+81. click(findTestObject("Object Repository/message user - verification/Page_Message/button_Send"))
+
+22
+00:00:54,587 --> 00:00:54,588
+85. delay(2)
+
+23
+00:00:56,609 --> 00:00:56,610
+89. click(findTestObject("message user - verification/Page_Message/mouse hover"))
+
+24
+00:00:57,907 --> 00:00:57,908
+93. click(findTestObject("Object Repository/message user - verification/Page_Message/button_Delete chat"))
+
+25
+00:00:58,697 --> 00:00:58,699
+97. closeBrowser()
+
+26
+00:01:02,289 --> 00:01:02,290
+1. closeBrowser()
+

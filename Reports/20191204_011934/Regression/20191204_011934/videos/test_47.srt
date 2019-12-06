@@ -1,0 +1,124 @@
+1
+00:00:00,418 --> 00:00:00,419
+1. college = "MyCollege" + System.currentTimeMillis()
+
+2
+00:00:00,422 --> 00:00:00,423
+5. openBrowser(AppUrl)
+
+3
+00:00:12,065 --> 00:00:12,065
+9. navigateToUrl(AppUrl)
+
+4
+00:00:14,259 --> 00:00:14,259
+13. setText(findTestObject("EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_username"), "worklifetest10001@gmail.com")
+
+5
+00:00:14,791 --> 00:00:14,792
+17. setEncryptedText(findTestObject("EducationDetails/Page_theworklife - Find Great People To Work With/input_Forgot password_password"), "XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U")
+
+6
+00:00:15,237 --> 00:00:15,238
+21. click(findTestObject("EducationDetails/Page_theworklife - Find Great People To Work With/button_Sign in"))
+
+7
+00:00:28,980 --> 00:00:28,980
+25. click(findTestObject("EducationDetails/Page_Home/a_profile"))
+
+8
+00:00:29,675 --> 00:00:29,676
+29. click(findTestObject("EducationDetails/Page_Home/a_Edit Profile"))
+
+9
+00:00:37,015 --> 00:00:37,016
+33. click(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/a_Education"))
+
+10
+00:00:37,685 --> 00:00:37,685
+37. delay(5)
+
+11
+00:00:42,688 --> 00:00:42,688
+41. waitForElementVisible(findTestObject("EducationDetails/Page_Edit Profile/button_ Add Education"), 3)
+
+12
+00:00:43,021 --> 00:00:43,022
+45. click(findTestObject("EducationDetails/Page_Edit Profile/button_ Add Education"))
+
+13
+00:00:43,589 --> 00:00:43,590
+49. sleep(5000)
+
+14
+00:00:48,593 --> 00:00:48,594
+53. waitForElementNotVisible(findTestObject("Experience/Page_Edit Profile/loader"), 5)
+
+15
+00:00:48,963 --> 00:00:48,964
+57. waitForElementPresent(findTestObject("EducationDetails/Page_Edit Profile/DegreForm"), 5)
+
+16
+00:00:49,305 --> 00:00:49,305
+61. setText(findTestObject("EducationDetails/Page_Edit Profile/input_Select institute_institute"), college)
+
+17
+00:00:49,790 --> 00:00:49,791
+65. click(findTestObject("EducationDetails/Page_Edit Profile/DegreForm"))
+
+18
+00:00:53,214 --> 00:00:53,214
+69. setText(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/input_Degree_degree"), "worklife")
+
+19
+00:00:53,607 --> 00:00:53,608
+73. click(findTestObject("EducationDetails/Page_Edit Profile/DegreForm"))
+
+20
+00:00:54,617 --> 00:00:54,618
+77. setText(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/input_SpecialityField_specialty"), "worklife")
+
+21
+00:00:54,971 --> 00:00:54,972
+81. click(findTestObject("EducationDetails/Page_Edit Profile/DegreForm"))
+
+22
+00:00:56,314 --> 00:00:56,314
+85. selectOptionByValue(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/select_Please selectYear (1)"), "2008", true)
+
+23
+00:00:58,575 --> 00:00:58,575
+89. selectOptionByValue(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/select_Please selectYear"), "2002", true)
+
+24
+00:01:00,492 --> 00:01:00,492
+93. setText(findTestObject("Object Repository/EducationDetails/Page_Edit Profile/textarea_(Optional)_description"), "Test Description")
+
+25
+00:01:00,839 --> 00:01:00,839
+97. click(findTestObject("EducationDetails/Page_Edit Profile/DegreForm"))
+
+26
+00:01:01,391 --> 00:01:01,392
+101. scrollToElement(findTestObject("EducationDetails/Page_Edit Profile/button_Save"), 0)
+
+27
+00:01:01,696 --> 00:01:01,696
+105. delay(3)
+
+28
+00:01:04,702 --> 00:01:04,703
+109. click(findTestObject("EducationDetails/Page_Edit Profile/button_Save"))
+
+29
+00:01:05,352 --> 00:01:05,353
+113. delay(3)
+
+30
+00:01:08,357 --> 00:01:08,357
+117. verifyElementText(findTestObject("EducationDetails/Page_Edit Profile/h2_MyCollege", ["college":college]), college)
+
+31
+00:01:08,359 --> 00:01:08,359
+1. closeBrowser()
+

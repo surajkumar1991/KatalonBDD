@@ -16,25 +16,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.ProdAppUrl)
 
-WebUI.navigateToUrl('https://www.thework.life/')
+WebUI.navigateToUrl('https://qa.thework.life/')
 
 WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Please enter username or email_username'), 
-    'vijayvstest01@gmail.com')
+    'worklifetest10001@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/input_Forgot password_password'), 
-    'cvW8qx4B2o3F4VwP/kNsqA==')
+    'XU9cBalmEBp1UP+jEU2w4UUBUuNgBY4U')
 
 WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_theworklife - Find Great People To Work With/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText'), 'suraj')
+WebUI.setText(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/input_View all_searchText'), 'vijay test')
 
 WebUI.click(findTestObject('Search user/Search user button'))
 
-WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija'), 3)
+WebUI.waitForElementClickable(findTestObject('Thumbing-Upvote and Downvote/Page_Home/span_vijaytest'), 3)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Thumbing-Upvote and Downvote/Page_Home/span_Suraj1569758600295makhija'))
+WebUI.click(findTestObject('Thumbing-Upvote and Downvote/Page_Home/span_vijaytest'))
 
 WebUI.delay(3)
 

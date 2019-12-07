@@ -25,7 +25,7 @@ WebUI.setEncryptedText(findTestObject('Page_theworklife/input_Forgot password_pa
 
 WebUI.click(findTestObject('Page_theworklife/button_Sign in'))
 
-WebUI.navigateToUrl('https://thework.life/Profile/EditProfile')
+WebUI.navigateToUrl('https://qa.thework.life/Profile/EditProfile')
 
 WebUI.click(findTestObject('Page_Edit Profile/a_Experience'))
 

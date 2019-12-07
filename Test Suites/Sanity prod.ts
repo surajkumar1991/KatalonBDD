@@ -71,12 +71,6 @@
       <testCaseId>Test Cases/workLifeTest/ProfileCreationPersonalDetails</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>73c1cdf4-a2e2-46b3-8859-c9277eeb828b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/workLifeTest/ProfileDeletion</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>14931118-259c-4a79-8d37-b08c21f0d65c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

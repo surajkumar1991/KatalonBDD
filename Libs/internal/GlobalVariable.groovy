@@ -52,11 +52,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object AppUrl
-     
-    /**
-     * <p></p>
-     */
     public static Object ProdAppUrl
      
 
@@ -74,7 +69,6 @@ public class GlobalVariable {
             ticket_sample = selectedVariables['ticket_sample']
             authorization = selectedVariables['authorization']
             latest_response = selectedVariables['latest_response']
-            AppUrl = selectedVariables['AppUrl']
             ProdAppUrl = selectedVariables['ProdAppUrl']
             
         } catch (Exception e) {

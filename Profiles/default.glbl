@@ -47,6 +47,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa.thework.life'</initValue>
-      <name>AppUrl</name>
+      <name>ProdAppUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -16,9 +16,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SURAJK~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Thumbing - Upvote and downvote\\20191207_133059\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SURAJK~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\New regression cases\\Activity feed\\20191207_162138\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Thumbing - Upvote and downvote', new TestCaseBinding('Test Cases/Thumbing - Upvote and downvote',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/New regression cases/Activity feed', new TestCaseBinding('Test Cases/New regression cases/Activity feed',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

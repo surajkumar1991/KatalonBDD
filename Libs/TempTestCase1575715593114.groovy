@@ -16,9 +16,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SURAJK~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\workLifeTest\\ProfileCreationExperience\\20191207_134841\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SURAJK~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\New regression cases\\Activity feed\\20191207_161633\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/workLifeTest/ProfileCreationExperience', new TestCaseBinding('Test Cases/workLifeTest/ProfileCreationExperience',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/New regression cases/Activity feed', new TestCaseBinding('Test Cases/New regression cases/Activity feed',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
